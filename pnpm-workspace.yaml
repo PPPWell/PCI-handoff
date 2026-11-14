@@ -1,0 +1,4 @@
+# Only these two build tools need their published install scripts.
+allowBuilds:
+  esbuild: true
+  unrs-resolver: true

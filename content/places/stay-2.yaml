@@ -1,0 +1,63 @@
+id: stay-2
+status: draft
+facts:
+  originalName: "[Nome del luogo]"
+  cityId: florence
+  category: stay
+  subcategory: apartment
+  areaId: preview-area
+  typeTags:
+    - local
+  sceneTags:
+    - slow-visit
+  address: "[Via …, Firenze]"
+  coordinates: null
+  openingHours: "[营业时间 / Orari / Opening hours]"
+  priceBand: "[价格档]"
+  verifiedAt: "[日期]"
+  verification: checked
+  partnership: partner
+  profile: brief
+  audience:
+    - tourist
+    - local
+  photos: []
+  reservations:
+    whatsapp: null
+    phone: null
+    email: null
+    website: null
+    instagram: null
+    googleMaps: null
+    recommended: null
+    walkIn: "[现场排队建议 / Indicazioni senza prenotazione / Walk-in advice]"
+    suggestedArrival: "[建议到店时段 / fascia oraria consigliata / suggested arrival time]"
+    advanceDays: "[N]"
+translations:
+  zh:
+    slug: stay-2
+    name: "[店铺或景点名称]"
+    highlight: "[一句话亮点：为什么值得来]"
+    reasons:
+      - "[推荐理由：特色、氛围与适合谁]"
+    story: "[店主或工艺故事，待核实]"
+    practicalTips: "[实用提示，待核实]"
+    suitableFor: "[适合谁]"
+  it:
+    slug: stay-2
+    name: "[Nome del luogo]"
+    highlight: "[Perché vale la visita]"
+    reasons:
+      - "[Caratteristiche, atmosfera e a chi lo consigliamo]"
+    story: "[Storia del titolare o del mestiere, da verificare]"
+    practicalTips: "[Consigli pratici da verificare]"
+    suitableFor: "[A chi lo consigliamo]"
+  en:
+    slug: stay-2
+    name: "[Place name]"
+    highlight: "[One reason to visit]"
+    reasons:
+      - "[What makes it special and who it suits]"
+    story: "[Owner or craft story awaiting verification]"
+    practicalTips: "[Practical tips awaiting verification]"
+    suitableFor: "[Who it suits]"

@@ -1,0 +1,2 @@
+/** The permission prompt may resolve after navigation. Release late streams too. */
+export function cameraLease(acquire:()=>Promise<MediaStream>,ready:(stream:MediaStream,active:()=>boolean)=>Promise<void>,failed:()=>void){let stopped=false,stream:MediaStream|null=null;const stop=()=>{stopped=true;stream?.getTracks().forEach(track=>track.stop());};void (async()=>{try{stream=await acquire();if(stopped){stream.getTracks().forEach(track=>track.stop());return;}await ready(stream,()=>!stopped);}catch{if(!stopped){stop();failed();}}})();return stop;}

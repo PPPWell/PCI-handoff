@@ -1,0 +1,39 @@
+id: steak
+status: draft
+cityId: florence
+type: how-to
+placeIds:
+  - restaurant-1
+verifiedAt: "[日期]"
+audience:
+  - tourist
+  - local
+photos: []
+translations:
+  zh:
+    slug: steak-doneness
+    title: 牛排几分熟，用意大利语怎么说
+    description: "[专题简介，待核实]"
+    introduction: "[一到两句话的直接答案，待核实]"
+    sections:
+      - heading: "[小标题]"
+        paragraphs:
+          - "[正文段落，待核实]"
+  it:
+    slug: cottura-bistecca
+    title: Come chiedere la cottura della bistecca
+    description: "[Introduzione da verificare]"
+    introduction: "[La risposta in breve, da verificare]"
+    sections:
+      - heading: "[Sottotitolo]"
+        paragraphs:
+          - "[Testo da verificare]"
+  en:
+    slug: steak-doneness
+    title: How to order your steak in Italian
+    description: "[Guide summary awaiting verification]"
+    introduction: "[The short answer, awaiting verification]"
+    sections:
+      - heading: "[Section heading]"
+        paragraphs:
+          - "[Article text awaiting verification]"

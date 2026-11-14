@@ -1,0 +1,357 @@
+pages:
+  about:
+    status: published
+    title: Chi siamo
+    description: Scegliamo per i viaggiatori cinesi ristoranti, luoghi da esplorare, botteghe e posti dove dormire in Italia, perché tu possa conoscere un posto prima di decidere.
+    sections:
+      - id: story
+        heading: Oltre monti e mari, incontra ciò che ami
+        paragraphs:
+          - Palazzo Italia-Cina è un ponte sospeso tra le nuvole e una bella promessa tra Cina e Italia.
+          - "Il nostro scopo è semplice: far sì che prodotti, locali e marchi di qualità superino distanze e lingue e raggiungano più persone. Portare nel mondo le buone cose della Cina e avvicinare alla vita quotidiana di tanti i marchi, gli stili di vita e le esperienze culturali più affascinanti d’Europa."
+          - L’ispirazione nasce a Firenze, la città che ha dato vita al Rinascimento, con una profonda tradizione artistica e artigianale. Dagli orafi alla pelle fino al tessuto, la maestria tramandata di generazione in generazione e la cura per i dettagli ci spingono a cercare sempre più qualità e un modo di vivere più bello.
+          - "Il nome cinese “Zhongyi” (中意) racchiude due significati: l’incontro tra Cina (中) e Italia (意), e un’espressione sincera, “mi piace molto” (我很中意)."
+          - Crediamo che le cose davvero degne di essere condivise abbiano sempre una ragione per toccare il cuore. Per questo vogliamo unire consumatori, marchi ed esercenti di culture diverse con scoperte autentiche, selezioni curate e contenuti pieni di calore, perché ogni incontro apra nuove possibilità.
+          - Che Palazzo Italia-Cina sia uno spazio caldo tra le nuvole, dove si raccolgono le cose belle da apprezzare, e dove ogni emozione nata oltre monti e mari possa entrare nella vita di tutti i giorni.
+          - "Palazzo Italia-Cina: perché ogni scoperta sia qualcosa che ti piace davvero."
+      - id: selection
+        heading: Come scegliamo
+        paragraphs:
+          - Scegliamo in base al gusto, all’ambiente e all’occasione, e includiamo anche locali senza accordi. Quelli con un accordo sono sempre indicati.
+      - id: contact
+        heading: Contatti
+        paragraphs:
+          - Se vuoi collaborare, vai a [Collabora con noi](/it/partners/). Per problemi con i coupon, scrivi a [info@palazzoitaliacina.com](mailto:info@palazzoitaliacina.com) indicando l’email usata e il codice breve.
+  editorial-policy:
+    status: published
+    title: Linee editoriali
+    description: Come scegliamo i locali e come indichiamo gli accordi commerciali.
+    sections:
+      - id: independence
+        heading: Racconti indipendenti
+        paragraphs:
+          - I motivi per cui consigliamo un locale li scriviamo noi. Anche quando c’è un accordo, indirizzo, orari e menù sono riportati con precisione.
+      - id: disclosure
+        heading: Trasparenza sugli accordi
+        paragraphs:
+          - Ogni scheda indica “Menù esclusivo”, “Partner” oppure “Una nostra scelta, senza accordi”.
+      - id: updates
+        heading: Correzioni
+        paragraphs:
+          - Se trovi un errore in indirizzo, orari o altre informazioni, scrivici, controlleremo e correggeremo.
+  partners:
+    status: published
+    title: Lavoriamo insieme
+    description: Un menù da creare insieme e contenuti in cinese, italiano e inglese
+      per far conoscere il vostro ristorante.
+    sections:
+      - id: menu
+        heading: Creiamo insieme un menù esclusivo
+        paragraphs:
+          - Partiamo dai vostri piatti simbolo e concordiamo porzioni,
+            condizioni e prezzi reali.
+      - id: story
+        heading: Raccontiamo il vostro locale
+        paragraphs:
+          - Visite e foto sul posto, con contenuti in cinese, italiano e inglese.
+      - id: purchase
+        heading: Il cliente richiede il coupon e viene da voi
+        paragraphs:
+          - Il cliente richiede gratis il coupon sul sito e lo mostra allo staff quando ordina. Il pasto si paga direttamente al ristorante e le prenotazioni restano con voi.
+      - id: redeem
+        heading: Convalidate e servite
+        paragraphs:
+          - Quando il cliente ordina, lo staff convalida dal telefono. I
+            movimenti del giorno e i rendiconti sono consultabili dal sito,
+            senza cambiare cassa o POS.
+      - id: suppliers
+        heading: Rivenditori e fornitori
+        paragraphs:
+          - Siete rivenditori o fornitori? Scriveteci a palazzoitaliacina@gmail.com con la vostra proposta.
+  help:
+    status: published
+    title: Domande frequenti
+    description: "Coupon, utilizzo al ristorante, accesso email e iscrizione: le
+      risposte utili."
+    sections:
+      - id: purchase
+        heading: Coupon e pagamento
+        paragraphs:
+          - "I coupon PaStation si richiedono gratuitamente, dopo aver verificato l’email: uno per il Menù Deluxe 1 e uno per il Menù Deluxe 2, ciascuno con 8 € di sconto. Mostra quello giusto allo staff e paghi il pasto al ristorante."
+        questions:
+          - question: Come richiedo e uso il coupon sconto?
+            answer: "Dalla scheda PaStation richiedi il coupon e verifica l’email. Mostralo prima di ordinare il menù indicato sul coupon, nell’orario previsto: lo staff lo convalida per applicare lo sconto di 8 €."
+          - question: Il coupon vale al tavolo e da asporto?
+            answer: Sì, vale in entrambi i casi. Mostralo al momento dell’ordine, nell’orario indicato sul coupon.
+          - question: Dove ritrovo il coupon?
+            answer: Accedi alla tua area personale con l’email verificata per ritrovare il
+              coupon.
+      - id: booking
+        heading: Prenotazione
+        paragraphs:
+          - Prenota direttamente con il ristorante usando i recapiti e gli
+            strumenti disponibili.
+        questions:
+          - question: Come prenoto?
+            answer: Contatta il ristorante direttamente via telefono, WhatsApp o gli altri
+              canali indicati nella scheda.
+          - question: "Il locale è al completo: cosa faccio?"
+            answer: Prova un’altra data; se il locale non può accogliere chi possiede il
+              voucher, contatta l’assistenza.
+      - id: visit
+        heading: Al ristorante
+        paragraphs:
+          - Mostra il voucher allo staff quando ordini. In caso di problemi,
+            conserva il codice breve e contatta l’assistenza.
+        questions:
+          - question: "Lo staff non conosce il voucher: cosa faccio?"
+            answer: Mostra le istruzioni per lo staff disponibili dal voucher. Se serve,
+              annota il codice breve e contatta l’assistenza.
+      - id: refunds
+        heading: Rimborsi e proroghe
+        paragraphs:
+          - "Per ora i coupon sono gratuiti e non si paga nulla online, quindi non ci sono rimborsi. Validità e fasce orarie sono indicate sul coupon; dopo la scadenza non si può usare."
+      - id: account
+        heading: Account ed email
+        paragraphs:
+          - Accedi alla tua area personale con l’email verificata per ritrovare
+            il coupon.
+        questions:
+          - question: Come accedo?
+            answer: Apri “I miei voucher”, inserisci l’email usata per richiedere il coupon e poi il
+              codice ricevuto. Se il servizio non è disponibile, riprova più
+              tardi.
+          - question: "Non ricevo l’email: cosa faccio?"
+            answer: Controlla l’indirizzo, lo spam e la cartella Promozioni. Se l’invio non
+              è disponibile, riprova più tardi; se il problema continua,
+              contatta l’assistenza.
+  support:
+    status: published
+    title: Contatta l’assistenza
+    description: Per coupon e menù c’è l’assistenza. Per prenotare,
+      chiedere indicazioni o aggiungere piatti, contatta direttamente il
+      ristorante.
+    sections:
+      - id: channels
+        heading: Recapiti
+        paragraphs:
+          - "Email: info@palazzoitaliacina.com. Nell’email indica l’indirizzo usato per il coupon e il codice breve, così lo troviamo subito."
+      - id: hours
+        heading: Orari di assistenza
+        paragraphs:
+          - "Rispondiamo il prima possibile. Per prenotazioni, orari e piatti è più rapido contattare il ristorante: i recapiti sono nella sua pagina."
+  subscribe:
+    status: published
+    title: Iscriviti a Palazzo Italia-Cina
+    description: Nuovi menù e novità, senza frequenza fissa. Annulli quando vuoi.
+    sections:
+      - id: newsletter
+        heading: Cosa riceverai
+        paragraphs:
+          - Nuovi menù, appuntamenti e letture, senza frequenza fissa.
+  subscribe/confirm:
+    status: published
+    title: Conferma iscrizione
+    description: L’iscrizione si attiva solo dopo la verifica dell’email e la tua conferma.
+    sections:
+      - id: verification
+        heading: Verifica e conferma
+        paragraphs:
+          - L’iscrizione si attiva solo dopo la verifica dell’email e la tua
+            conferma.
+  subscribe/unsubscribe:
+    status: published
+    title: Annulla iscrizione
+    description: Accedi con l’email interessata e conferma la disiscrizione. Qui
+      vedrai lo stato effettivo.
+    sections:
+      - id: verification
+        heading: Verifica e conferma
+        paragraphs:
+          - Accedi con l’email interessata e conferma la disiscrizione. Qui
+            vedrai lo stato effettivo.
+  legal:
+    status: published
+    title: "Termini e politiche"
+    description: "Usando il sito accetti i termini d’uso qui sotto e prendi atto di come trattiamo i tuoi dati."
+    sections:
+      - id: effective
+        heading: "Data di entrata in vigore"
+        paragraphs:
+          - "I termini e le politiche elencati in questa pagina sono in vigore dal 6 novembre 2026. Quando li modifichiamo aggiorniamo la data; le modifiche importanti per i tuoi diritti vengono comunicate in anticipo via email agli utenti registrati."
+  legal/terms:
+    status: published
+    title: "Termini d’uso"
+    description: "Le regole per usare il sito Palazzo Italia-Cina e i suoi coupon."
+    sections:
+      - id: seller
+        heading: "Il sito e il servizio"
+        paragraphs:
+          - "Il sito Palazzo Italia-Cina (di seguito «il sito» o «noi») è gestito da Palazzo Italia-Cina, contattabile all’indirizzo info@palazzoitaliacina.com. Il sito presenta ristoranti in Italia e distribuisce coupon gratuiti dei ristoranti partner. Non gestiamo ristoranti e non vendiamo pasti."
+      - id: eligibility
+        heading: "Chi può usare il sito"
+        paragraphs:
+          - "Per usare il sito devi avere almeno 14 anni e un indirizzo email tuo, a cui ricevi la posta. I coupon sono per uso personale:"
+        bullets:
+          - "non puoi rivenderli né usarli a fini commerciali;"
+          - "non puoi richiederli con script o altri sistemi automatici, né con più indirizzi email per la stessa campagna."
+      - id: conditions
+        heading: "Coupon e condizioni d’uso"
+        paragraphs:
+          - "I coupon sono gratuiti: il sito non ti chiede alcun pagamento. Il pasto si paga al ristorante, che è il venditore: prezzi, piatti e allergeni sono indicati dal ristorante."
+        bullets:
+          - "Per ogni menù, un account (indirizzo email) ha un solo coupon valido alla volta e può richiederlo al massimo due volte."
+          - "Il coupon vale solo per il menù partner indicato, si convalida una sola volta ed è valido fino alla data indicata (ora italiana)."
+          - "Prima di ordinare mostra allo staff il QR o il codice a 6 cifre: lo staff lo convalida."
+          - "La convalida è definitiva: lo staff non può annullarla; un errore lo correggiamo noi su segnalazione."
+          - "Il coupon non è convertibile in denaro e non si può usare dopo la scadenza."
+          - "Una campagna può essere sospesa o chiusa dal ristorante. Se un coupon viene usato in violazione di questi termini possiamo annullarlo; i pasti già convalidati non sono toccati."
+      - id: account
+        heading: "Account e codici di verifica"
+        paragraphs:
+          - "Il sito non usa password: accedi con un codice inviato per email, valido dieci minuti. Non inoltrarlo ad altri e custodisci la tua casella di posta. Possiamo sospendere un account usato in violazione di questi termini."
+      - id: responsibility
+        heading: "Informazioni e responsabilità"
+        paragraphs:
+          - "Controlliamo le informazioni sui locali prima di pubblicarle, ma orari, menù e prezzi possono cambiare: fanno fede quelli del ristorante il giorno della visita. Il servizio di ristorazione è prestato dal ristorante, che ne risponde."
+          - "Rispondiamo del nostro servizio nei limiti previsti dalla legge. Questi termini non limitano i diritti che la legge ti riconosce come consumatore."
+      - id: content
+        heading: "Contenuti e diritti"
+        paragraphs:
+          - "Testi, foto e grafica del sito appartengono a noi o ai rispettivi titolari e non possono essere copiati o usati a fini commerciali senza autorizzazione."
+      - id: law
+        heading: "Legge applicabile e controversie"
+        paragraphs:
+          - "Questi termini sono regolati dalla legge italiana. Se sei un consumatore, è competente il giudice del luogo in cui risiedi o hai domicilio."
+          - "Per domande o reclami scrivi prima a info@palazzoitaliacina.com: rispondiamo al più presto e cerchiamo una soluzione amichevole."
+  legal/refunds:
+    status: published
+    title: "Rimborsi e proroghe"
+    description: "I coupon gratuiti non prevedono pagamenti né rimborsi; dopo la scadenza non si prorogano."
+    sections:
+      - id: withdrawal
+        heading: "Rimborsi"
+        paragraphs:
+          - "I coupon attuali sono gratuiti e il sito non chiede alcun pagamento: non ci sono pagamenti online e quindi nessun rimborso."
+          - "Se in futuro offriremo prodotti a pagamento, le regole di recesso e rimborso saranno indicate prima dell’acquisto."
+      - id: extension
+        heading: "Validità e proroghe"
+        paragraphs:
+          - "La validità è indicata sul coupon. Dopo la scadenza il coupon non vale più e non può essere prorogato né riemesso."
+      - id: exceptions
+        heading: "Se qualcosa non va"
+        paragraphs:
+          - "Se il coupon non si vede bene, il ristorante non lo accetta o è stato convalidato per errore, scrivi a info@palazzoitaliacina.com indicando l’email usata e il codice breve: verifichiamo con il ristorante."
+  legal/privacy:
+    status: published
+    title: "Informativa privacy"
+    description: "Quali dati personali trattiamo, perché, per quanto tempo e quali sono i tuoi diritti (artt. 13 e 14 GDPR)."
+    sections:
+      - id: controller
+        heading: "Titolare del trattamento"
+        paragraphs:
+          - "Palazzo Italia-Cina"
+        bullets:
+          - "Email: info@palazzoitaliacina.com"
+      - id: processing
+        heading: "Dati trattati, finalità e base giuridica"
+        paragraphs:
+          - "Trattiamo solo i dati necessari al servizio:"
+        bullets:
+          - "Indirizzo email e accessi: per creare l’account, accedere e ricevere codici e coupon. Base: esecuzione del contratto (art. 6.1.b GDPR)."
+          - "Dati dei coupon: codice, data di richiesta, convalida e annullamento, ristorante. Per offrire lo sconto, evitare usi ripetuti e fare i conti con i ristoranti. Base: contratto e legittimo interesse a prevenire abusi (art. 6.1.b e f)."
+          - "Newsletter: email, lingua e data del consenso. Scriviamo solo se ti iscrivi. Base: consenso (art. 6.1.a), revocabile in ogni momento."
+          - "Log tecnici: indirizzo IP, browser e ora. Per la sicurezza e la risoluzione dei problemi. Base: legittimo interesse (art. 6.1.f)."
+          - "Statistiche d’uso anonime: solo dopo il tuo consenso, registriamo eventi d’uso anonimi (per esempio il tipo di pagina visitata, i tocchi su navigazione o sul pulsante del coupon, «Aggiungi alla schermata Home»). Nessuna email e nessun token del coupon. Base: consenso (art. 6.1.a), revocabile in ogni momento da «Preferenze cookie»."
+          - "Canale del poster: se arrivi scansionando il QR di un poster stampato, sul coupon che richiedi annotiamo il codice del canale (per esempio p1) per capire quale poster funziona. Solo il codice del canale, nessun comportamento di navigazione; la scansione registra soltanto ingresso, canale, lingua e ora, senza indirizzo IP né dati del dispositivo. Base: legittimo interesse (art. 6.1.f)."
+          - "Conteggio delle scelte sui cookie: la tua scelta sul banner (accetta o rifiuta) viene sommata ogni giorno in un numero anonimo, senza alcun identificativo, per conoscere il tasso di accettazione. Base: legittimo interesse (art. 6.1.f)."
+          - "Messaggi al servizio clienti: per risponderti. Base: contratto o tua richiesta."
+          - "Personale dei ristoranti partner: email dell’account e convalide, per l’area ristoranti e i rendiconti. Base: contratto con il ristorante."
+      - id: recipients
+        heading: "Destinatari"
+        paragraphs:
+          - "Al momento della convalida il ristorante partner vede i dati del coupon necessari. Non vendiamo dati personali, non li usiamo per pubblicità e non facciamo profilazione né decisioni automatizzate."
+          - "Per far funzionare il sito ci avvaliamo di questi responsabili del trattamento: Supabase (database e accesso, server nell’UE a Francoforte), Resend (invio email), Vercel (hosting) e, se acconsenti alle statistiche, PostHog (statistiche d’uso anonime, server nell’UE). Resend e Vercel hanno sede negli Stati Uniti: il trasferimento si basa sulla decisione di adeguatezza dell’UE per gli Stati Uniti (EU-U.S. Data Privacy Framework) o sulle clausole contrattuali standard."
+      - id: retention
+        heading: "Conservazione"
+        paragraphs:
+          - "Conserviamo i dati solo per il tempo necessario:"
+        bullets:
+          - "Account e coupon: fino alla richiesta di cancellazione e comunque non oltre 24 mesi dall’ultimo utilizzo."
+          - "Newsletter: fino alla disiscrizione; conserviamo la disiscrizione per non scriverti di nuovo."
+          - "Log tecnici: cancellati automaticamente dal fornitore di hosting, di norma entro 30 giorni."
+          - "Statistiche d’uso anonime: non oltre 12 mesi."
+          - "Messaggi al servizio clienti: non oltre 24 mesi dalla chiusura della richiesta."
+          - "Se la legge impone tempi più lunghi, valgono quelli."
+      - id: rights
+        heading: "I tuoi diritti"
+        paragraphs:
+          - "Non abbiamo nominato un responsabile della protezione dei dati. Per questioni di privacy scrivi a info@palazzoitaliacina.com."
+          - "Puoi chiedere accesso, rettifica, cancellazione, limitazione e portabilità dei dati, opporti al trattamento basato sul legittimo interesse e revocare il consenso in ogni momento (per esempio disiscrivendoti), senza effetti sul trattamento precedente."
+          - "Per cancellare l’account o esercitare un diritto scrivi a info@palazzoitaliacina.com dall’email dell’account: rispondiamo entro un mese. Puoi anche presentare reclamo al Garante per la protezione dei dati personali (www.garanteprivacy.it)."
+  legal/cookies:
+    status: published
+    title: "Cookie policy"
+    description: "I cookie e la memoria del browser necessari al funzionamento non richiedono consenso; le statistiche si attivano solo se scegli «Accetta tutto». Nessun cookie pubblicitario o di terze parti."
+    sections:
+      - id: necessary
+        heading: "Cookie tecnici e memoria del browser"
+        paragraphs:
+          - "Questi strumenti sono necessari al funzionamento del sito e non richiedono consenso:"
+        bullets:
+          - "Cookie di accesso (nome che inizia con sb-): mantengono l’accesso; si cancellano all’uscita o alla scadenza."
+          - "Lingua (memoria locale del browser): ricorda la lingua scelta."
+          - "Stato temporaneo dell’accesso (solo nella scheda aperta, si cancella alla chiusura)."
+      - id: analytics
+        heading: "Statistiche e pubblicità"
+        paragraphs:
+          - "Lo strumento statistico si attiva solo se scegli «Accetta tutto»; con «Rifiuta tutto», o se non scegli, non viene inviato alcun dato statistico. Usiamo PostHog (server nell’UE) senza cookie: l’identificativo del visitatore è un numero casuale conservato solo nella memoria del browser di questo dispositivo, non collegato a email o account; viene cancellato se rifiuti o revochi il consenso."
+          - "Registriamo solo eventi d’uso anonimi, per esempio il tipo di pagina visitata, i tocchi su navigazione e cambio lingua, indicazioni stradali e copia dell’indirizzo, l’avvio di una richiesta di coupon e «Aggiungi alla schermata Home»; i token dei coupon vengono rimossi dall’indirizzo prima dell’invio. Nessun profilo personale e nessun collegamento con email o account. Acquisti, convalide e rimborsi si basano su database e pagamenti, non sulle statistiche."
+          - "Il sito non usa cookie pubblicitari o di tracciamento di terze parti e non incorpora mappe, video o pulsanti social di terzi; i link alle mappe nelle pagine dei ristoranti aprono Apple Maps o Google Maps in una nuova pagina."
+      - id: settings
+        heading: "Gestire i cookie"
+        paragraphs:
+          - "Puoi cambiare scelta in ogni momento da «Preferenze cookie» nel piè di pagina: rifiutare è facile quanto accettare, e ti richiediamo la scelta circa ogni sei mesi. Puoi anche cancellare cookie e memoria locale dalle impostazioni del browser in ogni momento; dopo dovrai accedere di nuovo."
+labels:
+  preview: Contenuti in preparazione; alcune informazioni devono ancora essere
+    confermate.
+  closed: Presto online
+  contactHeading: Contatti
+  legalOnThisPage: In questa pagina
+  legalEffective: "In vigore dal 6 novembre 2026"
+  contactPartners: "Scriveteci presentando il vostro locale o negozio, con indirizzo e recapiti: rispondiamo al più presto."
+  contactSupport: "Scrivici per email: rispondiamo al più presto. Per un coupon, indica il codice di 6 cifre riportato sul coupon."
+  subscribeClosed: Inserisci l’email per iscriverti e ricevere nuovi
+    menù, appuntamenti e letture, senza una frequenza fissa. Puoi annullarla
+    quando vuoi.
+  legalPending: "[Testo da approvare dal legale; questa pagina contiene solo la struttura.]"
+  invalidConfirmation: L’iscrizione si attiva solo dopo la verifica dell’email e la tua conferma.
+  invalidUnsubscribe: Accedi con l’email interessata e conferma la disiscrizione.
+    Qui vedrai lo stato effettivo.
+  name: Nome
+  business: Ristorante o azienda
+  phone: Telefono o WhatsApp
+  email: Email
+  message: Messaggio
+  topic: Argomento
+  shortCode: Codice breve (facoltativo)
+  send: Invia
+  subscribe: Iscriviti
+  consent: "Acconsento al trattamento dei dati inviati secondo l’informativa privacy, solo per rispondere a questa richiesta."
+  supportEmail: "info@palazzoitaliacina.com"
+  partnerEmail: "palazzoitaliacina@gmail.com"
+  supportHours: "[Orari · ora italiana]"
+  related: Scopri di più
+  gift: La selezione dei locali
+  giftDescription: "[Locali selezionati e consigli per ordinare, in preparazione]"
+  giftPreview: "[Anteprima della selezione]"
+  teamPhoto: "[Foto del team da fornire]"
+  restaurantPhoto: "[Foto del ristorante da fornire]"
+  privacy: Informativa privacy
+topics:
+  - Voucher o menù
+  - Pagamento
+  - Rimborso o proroga
+  - Prenotazione
+  - Collaborazione
+  - Altro

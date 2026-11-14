@@ -1,0 +1,39 @@
+id: walk-in
+status: draft
+cityId: florence
+type: list
+placeIds:
+  - restaurant-1
+verifiedAt: "[日期]"
+audience:
+  - tourist
+  - local
+photos: []
+translations:
+  zh:
+    slug: without-reservations
+    title: 不用订位的用餐选择
+    description: "[专题简介，待核实]"
+    introduction: "[一到两句话的直接答案，待核实]"
+    sections:
+      - heading: "[小标题]"
+        paragraphs:
+          - "[正文段落，待核实]"
+  it:
+    slug: senza-prenotare
+    title: Dove mangiare bene senza prenotare
+    description: "[Introduzione da verificare]"
+    introduction: "[La risposta in breve, da verificare]"
+    sections:
+      - heading: "[Sottotitolo]"
+        paragraphs:
+          - "[Testo da verificare]"
+  en:
+    slug: without-reservations
+    title: Eating well without a reservation
+    description: "[Guide summary awaiting verification]"
+    introduction: "[The short answer, awaiting verification]"
+    sections:
+      - heading: "[Section heading]"
+        paragraphs:
+          - "[Article text awaiting verification]"

@@ -1,0 +1,98 @@
+id: florence
+status: published
+photos:
+  - url: /images/cities/florence/duomo-skyline.jpg
+    alt:
+      zh: 佛罗伦萨的红色屋顶之上，圣母百花大教堂的穹顶、乔托钟楼和远处的山
+      it: I tetti rossi di Firenze con la cupola del Duomo, il campanile di Giotto e le colline sullo sfondo
+      en: Florence's red rooftops with the Duomo's dome, Giotto's bell tower and the hills behind
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-07提供，用于本网站城市页；用户确认可免版权使用，原始出处由用户保留。
+    attribution: 项目方提供
+translations:
+  zh:
+    slug: florence
+    name: 佛罗伦萨
+    intro: "文艺复兴的城市，也是托斯卡纳家常菜的城市。我们先从吃开始：自己去过的餐厅，写清楚吃什么、适合谁、怎么订位，有的还附上专属优惠券。"
+    practical:
+      - heading: 吃饭的时间
+        text: "大多数餐厅午餐约 12:30 到 14:30，晚餐约 19:30 到 22:30，中间常常关门休息；不少店每周有一天休息。出发前请先看餐厅页上的营业时间，或直接打电话确认。"
+      - heading: 订位与结账
+        text: "热门餐厅和周末建议提前订位。账单上常见每人几欧元的 coperto（餐位费），这是当地的惯例；小费不是必须的，觉得满意可以留一点零钱。"
+  it:
+    slug: firenze
+    name: Firenze
+    intro: "La città del Rinascimento è anche la città della cucina toscana di casa. Cominciamo dal mangiare: ristoranti che abbiamo provato, con cosa ordinare, per chi sono e come prenotare; alcuni hanno un coupon riservato."
+    practical:
+      - heading: Gli orari dei pasti
+        text: "Di solito si pranza tra le 12:30 e le 14:30 e si cena tra le 19:30 e le 22:30; nel pomeriggio molte cucine chiudono e tanti locali hanno un giorno di riposo. Controllate gli orari nella pagina del ristorante o chiamate prima."
+      - heading: Prenotare e pagare
+        text: "Per i locali più richiesti e nel fine settimana conviene prenotare. Il coperto di qualche euro a persona è normale; la mancia non è obbligatoria."
+  en:
+    slug: florence
+    name: Florence
+    intro: "The city of the Renaissance is also a city of Tuscan home cooking. We start with food: restaurants we have tried ourselves, with what to order, who they suit and how to book; some come with an exclusive coupon."
+    practical:
+      - heading: Meal times
+        text: "Most restaurants serve lunch from about 12:30 to 14:30 and dinner from about 19:30 to 22:30, often closing in between, and many close one day a week. Check the hours on the restaurant's page or call before you go."
+      - heading: Booking and paying
+        text: "Book ahead for popular places and at weekends. A coperto (cover charge) of a few euros per person is normal; tipping is not expected, though rounding up is welcome."
+areas:
+  - id: preview-area
+    translations:
+      zh:
+        slug: preview-area
+        name: 其他街区
+        intro: 更多街区将陆续加入。
+      it:
+        slug: quartiere-in-preparazione
+        name: Altre zone
+        intro: Altre zone in arrivo.
+      en:
+        slug: preview-area
+        name: Other areas
+        intro: More areas will be added.
+  - id: centro-storico
+    translations:
+      zh:
+        slug: centro-storico
+        name: 历史中心
+        intro: Via Porta Rossa 位于佛罗伦萨历史中心。
+      it:
+        slug: centro-storico
+        name: Centro storico
+        intro: Via Porta Rossa, nel centro storico di Firenze.
+      en:
+        slug: historic-centre
+        name: Historic centre
+        intro: Via Porta Rossa in Florence’s historic centre.
+  - id: via-pistoiese
+    translations:
+      zh:
+        slug: via-pistoiese
+        name: Via Pistoiese
+        intro: 历史中心以西的住宅街区，当地人常去的小馆子在这一带。
+      it:
+        slug: via-pistoiese
+        name: Via Pistoiese
+        intro: Un quartiere residenziale a ovest del centro, dove mangiano i fiorentini.
+      en:
+        slug: via-pistoiese
+        name: Via Pistoiese
+        intro: A residential area west of the centre, where Florentines eat.
+  - id: pistoia
+    translations:
+      zh:
+        slug: pistoia
+        name: 皮斯托亚
+        intro: 位于佛罗伦萨西北约 35 公里的托斯卡纳小城，适合半日往返。
+      it:
+        slug: pistoia
+        name: Pistoia
+        intro: Cittadina toscana a circa 35 km a nord-ovest di Firenze, adatta a una gita in giornata.
+      en:
+        slug: pistoia
+        name: Pistoia
+        intro: A Tuscan town about 35 km north-west of Florence, easy for a day trip.

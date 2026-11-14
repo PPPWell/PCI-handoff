@@ -1,0 +1,12 @@
+import {headers} from 'next/headers';
+import {deviceLabel} from './owner-types';
+import {authEnvironment,validatedAuthConfig} from '../auth/client';
+import {couponContext} from '../coupons/server';
+import {hashVoucherToken} from '../vouchers/tokens';
+import {isUuid} from '../vouchers/pin-types';
+import {parseMerchantVoucher,parseMerchantToday} from './read';
+import type {MerchantState,TodayState} from './types';
+/** One sign-in check per request: the frame, the role and the report all share the coupon context instead of each asking Supabase Auth again. */
+export async function clientContext(){if(!validatedAuthConfig(authEnvironment()))return {kind:'unconfigured' as const};const c=await couponContext();return c.kind==='ready'?{kind:'ready' as const,client:c.client,user:{id:c.user.id,email:c.user.email??''}}:c;}
+export async function serverMerchantVoucher(token:string):Promise<MerchantState>{let hash:string;try{hash=hashVoucherToken(token);}catch{return {kind:'not-found'};}try{const c=await clientContext();if(c.kind!=='ready')return c;const {data,error}=await c.client.rpc('pci_read_merchant_voucher',{p_token_hash:hash});if(error)throw Error();if(data?.ok===false)return {kind:data.code==='sign_in_required'?'signed-out':'not-found'};const parsed=parseMerchantVoucher(data),registered=await c.client.rpc('pci_register_merchant_device',{p_restaurant:parsed.view.restaurant.id,p_label:deviceLabel((await headers()).get('user-agent'))});if(registered.error)throw Error();if(registered.data?.ok!==true)return {kind:'not-found'};return {kind:'found',data:parsed};}catch{return {kind:'unavailable'};}}
+export async function serverMerchantToday(restaurant?:string,cursor?:{at:string;id:string}):Promise<TodayState>{if(restaurant&&!isUuid(restaurant))return {kind:'not-found'};try{const c=await clientContext();if(c.kind!=='ready')return c;const {data,error}=await c.client.rpc('pci_merchant_today',{p_restaurant:restaurant??null,p_cursor:cursor??null});if(error)throw Error();if(data?.ok===false)return {kind:data.code==='sign_in_required'?'signed-out':'not-found'};const parsed=parseMerchantToday(data),registered=await c.client.rpc('pci_register_merchant_device',{p_restaurant:parsed.restaurantId,p_label:deviceLabel((await headers()).get('user-agent'))});if(registered.error)throw Error();if(registered.data?.ok!==true)return {kind:'not-found'};return {kind:'found',data:parsed};}catch{return {kind:'unavailable'};}}

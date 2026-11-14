@@ -1,0 +1,5 @@
+import type {Locale} from '@/lib/i18n';
+import type {ManagementSuccess} from '@/lib/management/types';
+import {managementCopy} from '@/lib/management/copy';
+import {accountCopy} from '@/lib/auth/copy';
+export function ManagementOutcome({result,locale}:{result:ManagementSuccess;locale:Locale}) {const c=managementCopy[locale],format=(s:string)=>new Intl.DateTimeFormat(locale==='zh'?'zh-CN':locale==='it'?'it-IT':'en-GB',{timeZone:'Europe/Rome',dateStyle:'medium',timeStyle:'short'}).format(new Date(s));return <section className="state-card" aria-labelledby="management-outcome"><h2 id="management-outcome">{c.step3}</h2><h3>{result.purpose==='extension'?c.extended:c.withdrawn}</h3><p>{c.recordedAt}: {format(result.completedAt)}</p><p>{c.status}: {accountCopy[locale].statuses[result.voucherStatus]}</p><p>{c.expiry}: {result.expiresOn}</p>{result.refund&&<><p>{c.refund}: {c.refunds[result.refund.status]}</p><p>{c.available}: {format(result.refund.availableAfter)}</p><p className="small-copy">{c.current}</p></>}<p>{c.notice}: {c.notification[result.notificationStatus??'unknown']}</p></section>;}

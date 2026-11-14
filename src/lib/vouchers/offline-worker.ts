@@ -1,0 +1,37 @@
+import {offlineIdentity,compareOfflineTimes,parseOfflineSnapshot,offlineRetentionEnded,renderOfflineDocument,type OfflineSnapshot} from './offline-core.js';
+export const offlineCacheName='pci-voucher-snapshots-v1';
+type RecordValue={kind:'saved';snapshot:OfflineSnapshot;receivedAt:number}|{kind:'paused'|'revoked'}|{kind:'blocked';after:string};
+interface Reply {ok:boolean;status:string;snapshot?:OfflineSnapshot;now?:number;clockTrusted?:boolean}
+interface Environment {origin:string;caches:CacheStorage;fetch:typeof fetch;now:()=>number;getClient:(id:string)=>Promise<{type:string;url:string}|undefined>;notify?:(token:string,exceptClient?:string)=>Promise<void>}
+const privateHeaders={'Cache-Control':'private, no-store','X-Robots-Tag':'noindex, nofollow','Referrer-Policy':'no-referrer','X-Content-Type-Options':'nosniff'};
+export function createOfflineWorker(env:Environment){
+ const queues=new Map<string,Promise<unknown>>(),unpersisted=new Map<string,RecordValue>();
+ async function key(token:string){const hash=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(token));return env.origin+'/v/offline-record/'+Array.from(new Uint8Array(hash),b=>b.toString(16).padStart(2,'0')).join('');}
+ async function serial<T>(k:string,run:()=>Promise<T>):Promise<T>{const before=queues.get(k)??Promise.resolve(),next=before.catch(()=>{}).then(run);queues.set(k,next);try{return await next;}finally{if(queues.get(k)===next)queues.delete(k);}}
+ async function read(cache:Cache,k:string):Promise<RecordValue|null>{
+  const pending=unpersisted.get(k);if(pending){try{await cache.put(k,Response.json(pending,{headers:privateHeaders}));unpersisted.delete(k);}catch{}return pending;}
+  const response=await cache.match(k);if(!response)return null;try{const raw=await response.json();if(raw.kind==='saved'&&Number.isFinite(raw.receivedAt))return {kind:'saved',snapshot:parseOfflineSnapshot(raw.snapshot),receivedAt:raw.receivedAt};if(['paused','revoked'].includes(raw.kind))return {kind:raw.kind};if(raw.kind==='blocked'&&typeof raw.after==='string'&&Number.isFinite(Date.parse(raw.after)))return {kind:'blocked',after:raw.after};}catch{}await cache.delete(k);return null;
+ }
+ async function write(cache:Cache,k:string,value:RecordValue){unpersisted.set(k,value);await cache.delete(k);await cache.put(k,Response.json(value,{headers:privateHeaders}));unpersisted.delete(k);}
+ function display(value:RecordValue|null,status?:string):Reply{if(value?.kind==='saved'){const wall=env.now(),clockTrusted=wall>=value.receivedAt,now=Math.max(wall,Date.parse(value.snapshot.savedAt)+Math.max(0,wall-value.receivedAt));return {ok:true,status:status??'saved',snapshot:value.snapshot,now,clockTrusted};}return {ok:true,status:value?.kind??'missing'};}
+ async function cleanup(){try{const cache=await env.caches.open(offlineCacheName),keys=new Set([...(await cache.keys()).map(r=>r.url),...unpersisted.keys()]);for(const k of keys)await serial(k,async()=>{const value=await read(cache,k);if(value?.kind==='saved'&&offlineRetentionEnded(value.snapshot,env.now())){await cache.delete(k);unpersisted.delete(k);}});}catch{/* Storage failure is reported on the caller's own operation. */}}
+ function handles(request:Request){return request.method==='GET'&&request.mode==='navigate'&&offlineIdentity(request.url,env.origin)!==null;}
+ async function message(clientId:string,value:unknown):Promise<Reply>{
+  let token:string|undefined,mutated=false;
+  try{const client=await env.getClient(clientId),identity=client?.type==='window'?offlineIdentity(client.url,env.origin):null;if(!identity||!value||typeof value!=='object'||Array.isArray(value)||JSON.stringify(value).length>128000)throw Error();const body=value as Record<string,unknown>;token=identity.token;await cleanup();const k=await key(token);
+   return await serial(k,async()=>{const cache=await env.caches.open(offlineCacheName),old=await read(cache,k);
+    if(body.type==='read')return display(old);
+    if(body.type==='invalidate'){mutated=true;await write(cache,k,{kind:'revoked'});return {ok:true,status:'revoked'};}if(old?.kind==='revoked')return {ok:true,status:'revoked'};
+    if(body.type==='clear'){mutated=true;await write(cache,k,{kind:'paused'});return {ok:true,status:'cleared'};}
+    if(body.type==='block'){if(typeof body.after!=='string'||!Number.isFinite(Date.parse(body.after)))throw Error();if(old?.kind==='paused')return {ok:true,status:'paused'};const after=old?.kind==='saved'&&compareOfflineTimes(old.snapshot.savedAt,body.after)>0?old.snapshot.savedAt:old?.kind==='blocked'&&compareOfflineTimes(old.after,body.after)>0?old.after:body.after;mutated=true;await write(cache,k,{kind:'blocked',after});return {ok:true,status:'blocked'};}
+    if(body.type!=='save')throw Error();const snapshot=parseOfflineSnapshot(body.snapshot);if(old?.kind==='paused'&&body.force!==true)return {ok:true,status:'paused'};if(old?.kind==='blocked'&&compareOfflineTimes(snapshot.savedAt,old.after)<=0)return {ok:true,status:'blocked'};if(old?.kind==='saved'){const order=compareOfflineTimes(snapshot.savedAt,old.snapshot.savedAt),codes=(s:OfflineSnapshot)=>s.vouchers.filter(v=>v.shortCode!==null).length;if(order<0||order===0&&codes(snapshot)>=codes(old.snapshot))return display(old,JSON.stringify(snapshot)===JSON.stringify(old.snapshot)?'saved':'stale');}if(offlineRetentionEnded(snapshot,env.now())){await cache.delete(k);return {ok:true,status:'expired'};}const record:RecordValue={kind:'saved',snapshot,receivedAt:env.now()};mutated=true;await write(cache,k,record);return display(record);
+   });
+  }catch{return {ok:false,status:'unavailable'};}finally{if(mutated&&token)await env.notify?.(token,clientId).catch(()=>{});}
+ }
+ async function navigate(request:Request):Promise<Response>{
+  const identity=offlineIdentity(request.url,env.origin);if(!identity)throw Error('Unsupported navigation');await cleanup();
+  try{const response=await env.fetch(request,{cache:'no-store',redirect:'manual',signal:AbortSignal.timeout(8000)});if([404,410].includes(response.status)){try{const k=await key(identity.token);await serial(k,async()=>{const cache=await env.caches.open(offlineCacheName);await write(cache,k,{kind:'revoked'});});}catch{}await env.notify?.(identity.token).catch(()=>{});}return response;
+  }catch{let record:RecordValue|null=null;try{const k=await key(identity.token);record=await serial(k,async()=>read(await env.caches.open(offlineCacheName),k));}catch{}const reply=display(record),snapshot=reply.clockTrusted===false?null:reply.snapshot??null,locale=identity.locale??(record?.kind==='saved'?record.snapshot.language:'zh');return new Response(renderOfflineDocument(snapshot,locale,reply.now??env.now()),{headers:{...privateHeaders,'Content-Type':'text/html; charset=utf-8','Content-Security-Policy':"default-src 'none'; img-src data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"}});}
+ }
+ return {handles,message,navigate,cleanup};
+}

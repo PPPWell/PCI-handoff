@@ -1,0 +1,137 @@
+id: restaurant-1
+status: published
+facts:
+  originalName: PaStation Firenze
+  cityId: florence
+  category: eat
+  subcategory: restaurant
+  areaId: centro-storico
+  typeTags:
+    - local
+  sceneTags:
+    - with-friends
+  address: Via Porta Rossa 64r, 50123 Firenze FI, Italia
+  coordinates:
+    lat: 43.770264
+    lng: 11.252286
+  # Walking times are straight-line estimates, not yet checked on a map; shown to readers as approximate.
+  nearby:
+    - landmark:
+        zh: 路易威登佛罗伦萨门店（Piazza degli Strozzi）
+        it: Louis Vuitton Firenze (Piazza degli Strozzi)
+        en: Louis Vuitton Florence (Piazza degli Strozzi)
+      minutes: 1
+    - landmark:
+        zh: 但丁故居博物馆（Casa di Dante）
+        it: Museo Casa di Dante
+        en: Casa di Dante museum
+      minutes: 6
+  openingHours: 12:00–22:30
+  priceBand: restaurant-menu
+  verifiedAt: 2026-10-25
+  verification: checked
+  partnership: exclusive
+  profile: complete
+  audience:
+    - tourist
+    - local
+  photos:
+    - url: /images/places/pastation/place-01.jpg
+      alt:
+        zh: PaStation Firenze 的蓝色招牌，上面有蝴蝶面图形
+        it: "L’insegna blu di PaStation Firenze con il simbolo della farfalla"
+        en: "The blue PaStation Firenze sign with the bow-tie pasta symbol"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+      attribution: PaStation Firenze
+    - url: /images/places/pastation/place-02.jpg
+      alt:
+        zh: PaStation Firenze 的店内：吧台、蓝色椅子和铺着蓝白格桌垫的餐桌
+        it: "L’interno di PaStation Firenze: il bancone, le sedie blu e i tavoli con le tovagliette a quadretti"
+        en: "Inside PaStation Firenze: the bar counter, blue chairs and tables with gingham place mats"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+      attribution: PaStation Firenze
+    - url: /images/places/pastation/place-03.jpg
+      alt:
+        zh: PaStation Firenze 在 Via Porta Rossa 的店门口和街边的蓝色桌椅
+        it: "L’ingresso di PaStation Firenze in Via Porta Rossa, con i tavolini blu sulla strada"
+        en: "The PaStation Firenze entrance on Via Porta Rossa, with blue tables on the street"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+      attribution: PaStation Firenze
+    - url: /images/places/pastation/place-04.jpg
+      alt:
+        zh: 印有 PaStation 标志的圆盘，放在蓝色桌面上
+        it: "Il piatto con il logo PaStation su un tavolo blu"
+        en: "A plate printed with the PaStation logo on a blue table"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+      attribution: PaStation Firenze
+  reservations:
+    whatsapp: null
+    phone: "+39055291184"
+    email: null
+    website: https://www.pastation.com/ristoranti
+    booking: https://www.pastation.com/res
+    instagram: null
+    googleMaps: https://maps.app.goo.gl/vzBVehXQnJmkxcTp6
+    recommended: booking
+    walkIn: 到店前可电话询问 / Telefonate per la disponibilità / Call to check availability
+    suggestedArrival: 12:00–22:30 · orario italiano
+    advanceDays: 请电话询问 / Chiedete per telefono / Ask by phone
+translations:
+  zh:
+    slug: pastation-firenze
+    name: PaStation Firenze
+    highlight: 在 Via Porta Rossa 享用豪华套餐，午餐或晚餐时段均可，标价 €27，凭券 €19。
+    reasons:
+      - 店铺位于佛罗伦萨历史中心的 Via Porta Rossa，门口可见 PaStation 的蝴蝶意面招牌。
+      - 先免费领券，到店点券上对应的豪华套餐时出示。店员核销后立减 €8，餐费直接付给餐厅。
+    story: 街边的座位、亮着灯的店门，照片里能看到这家店的样子。地址、电话和营业时段已据 PaStation 官网核对；菜品请在点单前向店员确认。
+    practicalTips: 官网列出每天12:00–22:30营业，均为意大利当地时间。出发前可致电 +39 055 291184 核对营业与座位；两款豪华套餐券都只在午餐 12:00–13:00 或晚餐 15:00–22:30 使用，请在这两个时段到店。
+    suitableFor: 想在市中心享用意式套餐，并使用 €8 优惠券的你。
+  it:
+    slug: pastation-firenze
+    name: PaStation Firenze
+    highlight: Menù Deluxe in Via Porta Rossa, a pranzo o a cena, da 27 € a 19 € con il coupon.
+    reasons:
+      - PaStation si trova in Via Porta Rossa, nel centro storico di Firenze.
+        All’ingresso trovi l’insegna con le farfalle.
+      - "Il coupon è gratuito: mostralo quando ordini il menù Deluxe indicato
+        sul coupon. Lo staff lo convalida e paghi il pasto al ristorante
+        con 8 € di sconto."
+    story: Le foto mostrano l’ingresso e i tavolini sulla strada. Indirizzo,
+      telefono e orari sono stati controllati sul sito di PaStation; chiedi allo
+      staff di confermare i piatti prima di ordinare.
+    practicalTips: Il sito indica l’apertura tutti i giorni dalle 12:00 alle 22:30,
+      ora italiana. Prima di andare puoi chiamare il +39 055 291184 per
+      confermare orari e disponibilità. I coupon dei due menù Deluxe valgono
+      solo a pranzo (12:00–13:00) o a cena (15:00–22:30).
+    suitableFor: Per un pranzo o una cena in centro, con 8 € di sconto sul menù Deluxe.
+  en:
+    slug: pastation-firenze
+    name: PaStation Firenze
+    highlight: "Deluxe menus on Via Porta Rossa for lunch or dinner: €27 or €19 with the coupon."
+    reasons:
+      - Find PaStation on Via Porta Rossa in Florence’s historic centre, marked
+        by its bow-tie pasta sign.
+      - Claim a free coupon and show it when ordering the matching Deluxe menu
+        named on it. Staff redeem it for €8 off; pay for the meal at the
+        restaurant.
+    story: The supplied photos show the entrance and street-side tables. The
+      address, phone and hours were checked against PaStation’s website. Ask
+      staff to confirm the dishes before ordering.
+    practicalTips: The website lists daily opening from 12:00 to 22:30, Italian
+      local time. Call +39 055 291184 before visiting to confirm hours and
+      availability. Both Deluxe coupons apply only at lunch (12:00–13:00) or dinner
+      (15:00–22:30).
+    suitableFor: Deluxe dining in central Florence with a €8 coupon discount.

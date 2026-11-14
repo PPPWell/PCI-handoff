@@ -1,0 +1,102 @@
+id: restaurant-2
+status: published
+facts:
+  originalName: Trattoria Da Burde
+  cityId: florence
+  category: eat
+  subcategory: restaurant
+  areaId: via-pistoiese
+  typeTags:
+    - local
+  sceneTags:
+    - slow-visit
+  address: Via Pistoiese 154, 50145 Firenze FI, Italia
+  # From OpenStreetMap (the trattoria itself is mapped there), 2026-11-06.
+  coordinates:
+    lat: 43.7941266
+    lng: 11.1858298
+  openingHours: "营业时间请致电确认 · Orari: confermare per telefono"
+  priceBand: €€
+  verifiedAt: 2026-10-26
+  verification: checked
+  partnership: independent
+  profile: brief
+  audience:
+    - tourist
+    - local
+  photos:
+    - url: /images/places/burde/interior.jpg
+      alt:
+        zh: "Da Burde 店内的木质吧台与酒架，中间是 1901 年家族招牌"
+        it: "Il bancone in legno e gli scaffali di vini da Burde, con l’insegna della famiglia dal 1901"
+        en: "The wooden counter and wine shelves at Da Burde, with the family sign from 1901"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-10-26提供，用于本网站；原摄影者未署名。
+      attribution: Trattoria Da Burde
+    - url: /images/places/burde/pigeon.jpg
+      alt:
+        zh: "印着 Burde、Dal 1901 的盘子里，烤禽肉配烤土豆"
+        it: "Un piatto con il marchio Burde, Dal 1901: volatile arrosto con patate"
+        en: "Roast poultry with potatoes on a plate marked Burde, Dal 1901"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-10-26提供，用于本网站；原摄影者未署名。
+      attribution: Trattoria Da Burde
+    - url: /images/places/burde/chianti.jpg
+      alt:
+        zh: "一瓶 Chianti Classico Riserva，背后是一盘橙色螺旋面"
+        it: "Una bottiglia di Chianti Classico Riserva, con un piatto di fusilli al sugo sullo sfondo"
+        en: "A bottle of Chianti Classico Riserva with a plate of orange spiral pasta behind"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-10-26提供，用于本网站；原摄影者未署名。
+      attribution: Trattoria Da Burde
+  reservations:
+    whatsapp: null
+    phone: "+39055317206"
+    email: info@daburde.it
+    website: https://www.vinodaburde.com
+    instagram: null
+    googleMaps: null
+    recommended: phone
+    walkIn: 建议电话预订 / Meglio prenotare per telefono / Best to book by phone
+    suggestedArrival: 午餐时段 · 请先电话确认 / Pranzo, confermate prima / Lunch, confirm first
+    advanceDays: 请电话询问 / Chiedete per telefono / Ask by phone
+translations:
+  zh:
+    slug: trattoria-da-burde
+    name: Trattoria Da Burde
+    highlight: 1901 年起的佛罗伦萨家族小馆，餐桌上是佛罗伦萨人自己吃的家常菜。
+    reasons:
+      - 最早是一间杂货铺，后来成了熟食店，再成为小馆，传到今天已是第四代。店里仍摆着自家做的罐装食谱。
+      - 菜单每天变，按一周的节奏轮换。常见的有鸡肝面包片、法里纳塔鹰嘴豆饼、托斯卡纳蔬菜面包汤、鹰嘴豆炖海鲜汤、胡椒炖牛肉和手工 pici 面。
+      - 位于历史中心以西的住宅街区，来的多是本地人。
+    story: 店名来自创办人 Egiziano Barducci 的绰号 “Burdél”，在托斯卡纳口音里成了 “Burde”。他和妻子 Giulia Gori 开店，如今由 Gori 家兄弟打理，一位掌厨，一位管堂食服务。
+    practicalTips: 出发前请致电 +39 055 317206 或发邮件 info@daburde.it 确认营业日、时间和座位；午餐尤其建议先订位。菜单每日更换，到店后请直接问店员当天有什么。
+    suitableFor: 想吃一顿当地人日常家常菜、不赶时间的你。
+  it:
+    slug: trattoria-da-burde
+    name: Trattoria Da Burde
+    highlight: Dal 1901, la trattoria di famiglia dove i fiorentini mangiano la cucina di casa.
+    reasons:
+      - Nata come bottega, poi salumeria e infine trattoria, oggi arriva alla quarta generazione. Al banco si trovano ancora i vasi con le ricette di casa.
+      - Il menù cambia ogni giorno seguendo un ciclo settimanale. Tra i piatti ricorrenti i crostini di fegatini, la farinata, la ribollita, il cacciucco di ceci, il peposo e i pici.
+      - Si trova in un quartiere residenziale a ovest del centro, frequentato soprattutto da fiorentini.
+    story: Il nome viene dal soprannome “Burdél” di Egiziano Barducci, che aprì il locale con la moglie Giulia Gori. Oggi lo guidano i fratelli Gori, uno in cucina e uno in sala.
+    practicalTips: Prima di andare chiamate il +39 055 317206 o scrivete a info@daburde.it per giorni, orari e posti; a pranzo conviene prenotare. Il menù cambia ogni giorno, chiedete allo staff cosa c’è oggi.
+    suitableFor: Per chi vuole un pasto di cucina casalinga fiorentina, senza fretta.
+  en:
+    slug: trattoria-da-burde
+    name: Trattoria Da Burde
+    highlight: A family trattoria since 1901, serving the home cooking Florentines eat themselves.
+    reasons:
+      - It began as a shop, became a deli and then a trattoria, and is now in its fourth generation. Jars of the family’s own recipes still sit by the counter.
+      - The menu changes daily on a weekly rhythm. Regulars include chicken liver crostini, farinata, ribollita, chickpea cacciucco, peposo and fresh pici.
+      - It sits in a residential area west of the centre, mostly visited by locals.
+    story: The name comes from the nickname “Burdél” of founder Egiziano Barducci, who opened the place with his wife Giulia Gori. Today the Gori brothers run it, one in the kitchen and one in the dining room.
+    practicalTips: Call +39 055 317206 or email info@daburde.it to confirm days, hours and seats before you go; booking is wise at lunch. The menu changes daily, so ask staff what is on today.
+    suitableFor: Anyone who wants an unhurried meal of everyday Florentine home cooking.

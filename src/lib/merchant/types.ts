@@ -1,0 +1,7 @@
+import type {VoucherView} from '../vouchers/read';
+import type {PinBatch} from '../vouchers/pin-types';
+export interface MerchantVoucher {view:VoucherView;lastBatch:PinBatch|null}
+export type MerchantState={kind:'found';data:MerchantVoucher}|{kind:'unconfigured'|'signed-out'|'not-found'|'unavailable'};
+export interface MerchantToday {serverNow:string;date:string;restaurants:{id:string;name:string}[];restaurantId:string;records:{id:string;redeemedAt:string;servedAt:string|null;voidedAt:string|null;method:'pin'|'scan'|'short_code'|'offline';shortCode:string;menu:string|null;people:number}[];nextCursor:{at:string;id:string}|null}
+export type TodayState={kind:'found';data:MerchantToday}|{kind:'unconfigured'|'signed-out'|'not-found'|'unavailable'};
+export const merchantErrors={invalid_request:'Controllate i dati inseriti.',not_found:'Voucher non trovato o non appartenente al vostro ristorante.',sign_in_required:'Accedete di nuovo sul telefono del ristorante.',invalid_selection:'Selezionate i voucher da convalidare.',request_conflict:'La richiesta non corrisponde alla selezione o a questo telefono.',state_changed:'Stato cambiato. Verificate i voucher prima di procedere.',undo_window_closed:'Sono trascorsi i due minuti per annullare.',not_current:'Questa convalida non è più annullabile.',unavailable:'Servizio non disponibile. Esito non confermato: verificate la stessa richiesta.'} as const;

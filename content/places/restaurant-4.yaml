@@ -1,0 +1,90 @@
+id: restaurant-4
+status: published
+facts:
+  originalName: Oil Restaurant Macolo
+  cityId: florence
+  category: eat
+  subcategory: restaurant
+  areaId: pistoia
+  typeTags:
+    - local
+  sceneTags:
+    - slow-visit
+  address: Via Monfalcone 23, 51100 Pistoia PT, Italia
+  # Street-level point from OpenStreetMap (house number 23 is not mapped), 2026-11-06; good enough to find the street.
+  coordinates:
+    lat: 43.9258518
+    lng: 10.9182892
+  openingHours: "营业时间请联系确认 · Orari: confermare con il locale"
+  # The restaurant has not given a price band; `unknown` hides the price line instead of guessing.
+  priceBand: unknown
+  verifiedAt: 2026-10-26
+  verification: checked
+  partnership: independent
+  profile: brief
+  audience:
+    - tourist
+    - local
+  photos:
+    - url: /images/places/macolo/entrance.jpg
+      alt:
+        zh: "夜晚亮灯的 Macolo 店门，门边是橄榄树标志"
+        it: "L’ingresso illuminato di Macolo, con l’insegna dell’ulivo"
+        en: "The lit entrance of Macolo at night, with its olive tree sign"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-10-26提供，用于本网站；原摄影者未署名。
+      attribution: Oil Restaurant Macolo
+    - url: /images/places/macolo/dish.jpg
+      alt:
+        zh: "餐桌上的切片主菜配烤菊苣，旁边有冷切肉拼盘和红酒"
+        it: "Un secondo affettato con indivia arrostita, accanto a un tagliere di salumi e al vino rosso"
+        en: "A sliced main course with roasted chicory, beside a cured-meat board and red wine"
+      creator: 项目方提供
+      takenAt: unknown
+      source: provided
+      permission: 用户于2026-10-26提供，用于本网站；原摄影者未署名。
+      attribution: Oil Restaurant Macolo
+  reservations:
+    whatsapp: null
+    phone: "+393473781709"
+    email: macolo.tuscany@gmail.com
+    website: https://macolo.it/
+    instagram: https://www.instagram.com/oilrestaurant_macolo/
+    googleMaps: null
+    recommended: phone
+    walkIn: 请提前联系餐厅 / Contattate il locale prima / Contact the restaurant first
+    suggestedArrival: 请联系确认 / Da confermare / To be confirmed
+    advanceDays: 请联系餐厅 / Chiedete al locale / Ask the restaurant
+translations:
+  zh:
+    slug: oil-restaurant-macolo
+    name: Oil Restaurant Macolo
+    highlight: 皮斯托亚的橄榄油庄园 Podere Macolo 旗下餐厅，在佛罗伦萨之外多一个半日去处。
+    reasons:
+      - Podere Macolo 是皮斯托亚的橄榄油庄园，按传统方式种植橄榄，强调只用天然方法，油的风味偏果香、收尾带一点微辣。
+      - 餐厅位于 Via Monfalcone 23，距佛罗伦萨约 35 公里，适合想离开市区、安排半日行程的人。
+    story: Macolo 的橄榄油从采收到冷榨都有严格把控，并获得过设计类奖项。
+    practicalTips: 营业日、时间、菜单和订位方式我们还没有可靠资料，请出发前电话联系 +39 347 378 1709，或写信到 macolo.tuscany@gmail.com；也可以看官网 macolo.it 和 Instagram。前往方式请向餐厅确认。
+    suitableFor: 想去佛罗伦萨以外看看托斯卡纳橄榄油产地的你。
+  it:
+    slug: oil-restaurant-macolo
+    name: Oil Restaurant Macolo
+    highlight: "Il ristorante del Podere Macolo, azienda olearia di Pistoia: una tappa fuori Firenze."
+    reasons:
+      - Podere Macolo è un’azienda olearia di Pistoia che coltiva gli ulivi in modo tradizionale e con soli prodotti naturali; l’olio è fruttato con una nota leggermente piccante.
+      - Il locale è in Via Monfalcone 23, a circa 35 km da Firenze, per una gita di mezza giornata fuori città.
+    story: La produzione dell’olio è seguita dalla raccolta alla spremitura a freddo.
+    practicalTips: "Giorni, orari, menù e modalità di prenotazione non sono ancora confermati: chiamate il +39 347 378 1709 o scrivete a macolo.tuscany@gmail.com prima di andare. Chiedete al locale come arrivare."
+    suitableFor: Per chi vuole scoprire l’olio toscano fuori da Firenze.
+  en:
+    slug: oil-restaurant-macolo
+    name: Oil Restaurant Macolo
+    highlight: The restaurant of Podere Macolo, an olive oil estate in Pistoia, for a half-day beyond Florence.
+    reasons:
+      - Podere Macolo is an olive oil estate in Pistoia that grows its olives traditionally with natural products only; the oil is fruity with a slightly spicy finish.
+      - The restaurant is at Via Monfalcone 23, about 35 km from Florence, for a half-day out of the city.
+    story: Production is overseen from harvest to cold pressing.
+    practicalTips: Days, hours, menu and booking are not yet confirmed, so call +39 347 378 1709 or email macolo.tuscany@gmail.com before you go, and ask the restaurant how to get there.
+    suitableFor: Anyone curious about Tuscan olive oil beyond Florence.

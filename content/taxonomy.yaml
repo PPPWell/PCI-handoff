@@ -1,0 +1,87 @@
+subcategories:
+  eat:
+    - id: restaurant
+      names:
+        zh: 餐厅
+        it: Ristoranti
+        en: Restaurants
+    - id: coffee
+      names:
+        zh: 咖啡
+        it: Caffè
+        en: Coffee
+    - id: gelato
+      names:
+        zh: 冰淇淋
+        it: Gelaterie
+        en: Gelato
+    - id: street-food
+      names:
+        zh: 街头小吃
+        it: Cibo di strada
+        en: Street food
+  do:
+    - id: culture
+      names:
+        zh: 文化艺术
+        it: Arte e cultura
+        en: Arts and culture
+    - id: walk
+      names:
+        zh: 城市漫步
+        it: Passeggiate
+        en: City walks
+    - id: landmark
+      names:
+        zh: 景点
+        it: Luoghi da scoprire
+        en: Sights
+  shop:
+    - id: craft
+      names:
+        zh: 手工艺
+        it: Artigianato
+        en: Craft
+    - id: leather
+      names:
+        zh: 皮具
+        it: Pelletteria
+        en: Leather
+    - id: food
+      names:
+        zh: 当地食品
+        it: Specialità locali
+        en: Local food
+  stay:
+    - id: hotel
+      names:
+        zh: 酒店
+        it: Hotel
+        en: Hotels
+    - id: apartment
+      names:
+        zh: 公寓
+        it: Appartamenti
+        en: Apartments
+    - id: guesthouse
+      names:
+        zh: 民宿
+        it: Affittacamere
+        en: Guesthouses
+typeTags:
+  - id: local
+    names:
+      zh: 当地特色
+      it: Locale
+      en: Local
+sceneTags:
+  - id: with-friends
+    names:
+      zh: 与朋友同行
+      it: Con amici
+      en: With friends
+  - id: slow-visit
+    names:
+      zh: 慢慢逛
+      it: Senza fretta
+      en: Take your time

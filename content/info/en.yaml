@@ -1,0 +1,354 @@
+pages:
+  about:
+    status: published
+    title: About Palazzo Italia-Cina
+    description: We pick places to eat, explore, shop and stay in Italy for Chinese travellers, so you can get to know a place before you decide to go.
+    sections:
+      - id: story
+        heading: Across mountains and seas, find what you love
+        paragraphs:
+          - Palazzo Italia-Cina is a bridge in the clouds, and a promise between China and Italy.
+          - "Our aim is simple: to help good products, good places and good brands cross borders and languages and be seen by more people. To carry China’s finest to a wider world, and bring Europe’s most distinctive brands, ways of living and cultural experiences closer to everyday life."
+          - The brand takes its inspiration from Florence, the city that gave birth to the Renaissance, with its deep artistic and craft traditions. From goldsmiths to leather to textiles, craftsmanship handed down through generations and a love of detail inspire us to seek higher quality and a more beautiful way of living.
+          - "The Chinese name, “Zhongyi” (中意), carries two meanings: the meeting of China (中) and Italy (意), and a heartfelt phrase, “I really like it” (我很中意)."
+          - We believe that anything truly worth sharing has a reason to move people. So we offer real discoveries, careful selection and content with warmth, connecting consumers, brands and businesses across cultures, so that every meeting creates new possibilities.
+          - May Palazzo Italia-Cina be a warm space in the clouds, gathering things worth admiring, so that every spark felt across mountains and seas has a chance to enter daily life.
+          - "Palazzo Italia-Cina: so that every discovery is one you’ll love."
+      - id: selection
+        heading: How we choose
+        paragraphs:
+          - We choose by taste, setting and occasion, and we include places we have no deal with. Places we do work with are always marked.
+      - id: contact
+        heading: Contact
+        paragraphs:
+          - To work with us, see [Partner with us](/en/partners/). For problems with coupons, write to [info@palazzoitaliacina.com](mailto:info@palazzoitaliacina.com) with the email you used and the short code.
+  editorial-policy:
+    status: published
+    title: Editorial policy
+    description: How we choose places and how we disclose partnerships.
+    sections:
+      - id: independence
+        heading: Written independently
+        paragraphs:
+          - We write our own reasons for recommending a place. Even with a partner, we state the address, hours and menu accurately.
+      - id: disclosure
+        heading: Partnership disclosure
+        paragraphs:
+          - Each page says “Exclusive menu”, “Partner” or “Our pick, no partnership”.
+      - id: updates
+        heading: Corrections
+        paragraphs:
+          - If you spot a mistake in an address, hours or other detail, tell us and we will check and correct it.
+  partners:
+    status: published
+    title: Partner with us
+    description: Help more guests discover your restaurant through exclusive menus
+      and content in three languages.
+    sections:
+      - id: menu
+        heading: Create an exclusive menu together
+        paragraphs:
+          - Start with your signature dishes and agree portions, conditions and
+            verified prices.
+      - id: story
+        heading: Tell the story of your restaurant
+        paragraphs:
+          - Visits, photography and verification support Chinese, Italian and
+            English content.
+      - id: purchase
+        heading: Guests claim a free coupon and visit you
+        paragraphs:
+          - Guests claim the coupon for free on the site and show it to your staff when ordering. They pay for the meal at your restaurant and still book with you directly.
+      - id: redeem
+        heading: Validate when guests order
+        paragraphs:
+          - Staff validate through a mobile webpage and review records and
+            statements without replacing their till.
+      - id: suppliers
+        heading: Retailers and suppliers
+        paragraphs:
+          - Retailers and suppliers are welcome to write to palazzoitaliacina@gmail.com with a proposal.
+  help:
+    status: published
+    title: Frequently asked questions
+    description: Help with coupons, restaurant visits, email sign-in and subscriptions.
+    sections:
+      - id: purchase
+        heading: Coupons and payment
+        paragraphs:
+          - "Verify your email to claim a free PaStation coupon: one for Deluxe Menu 1 and one for Deluxe Menu 2, each €8 off. Show the right one to staff and pay for the meal at the restaurant."
+        questions:
+          - question: How do I claim and use the discount coupon?
+            answer: Open the PaStation listing, request the coupon and verify your email.
+              Show it before ordering the menu named on it, within its meal window. Staff redeem it for €8 off.
+          - question: Does the coupon work for eating in and takeaway?
+            answer: Yes, both. Show it when you order, within the meal window printed on the coupon.
+          - question: Where can I find my coupon again?
+            answer: Sign in to My coupons with your verified email to find the coupon again.
+      - id: booking
+        heading: Reservations
+        paragraphs:
+          - Book directly with the restaurant using its listed contact methods
+            and tools.
+        questions:
+          - question: How do I book?
+            answer: Use a reservation method actually supported by the restaurant, as listed
+              on its profile or voucher page.
+          - question: What if the restaurant is full?
+            answer: Try another date, or contact support if the restaurant cannot
+              accommodate voucher holders.
+      - id: visit
+        heading: At the restaurant
+        paragraphs:
+          - Show the voucher when ordering. If something goes wrong, retain the
+            short code and contact support.
+        questions:
+          - question: What if staff do not recognise the voucher?
+            answer: Show the staff instructions available from the voucher. Keep the short
+              code and contact support if needed.
+      - id: refunds
+        heading: Refunds and extensions
+        paragraphs:
+          - "For now every coupon is free and nothing is paid online, so there are no refunds. Validity and meal times are shown on the coupon; once it expires it cannot be used."
+      - id: account
+        heading: Account and email
+        paragraphs:
+          - Sign in to My coupons with your verified email to find the coupon
+            again.
+        questions:
+          - question: How do I sign in?
+            answer: Use the email you used to claim your coupon and a six digit code. Sign in will open with the
+              account service.
+          - question: What if an email is missing?
+            answer: Check the email address and spam folder. Resending and support will be
+              available when the service opens.
+  support:
+    status: published
+    title: Contact support
+    description: Support handles coupon and menu questions. Contact the
+      restaurant for reservations, directions or extras.
+    sections:
+      - id: channels
+        heading: Contact channels
+        paragraphs:
+          - "Email: info@palazzoitaliacina.com. Please include the email you used for the coupon and its short code so we can find it."
+      - id: hours
+        heading: Support hours
+        paragraphs:
+          - "We reply as soon as we can. For bookings, opening hours and dishes, the restaurant is quicker: its contacts are on its page."
+  subscribe:
+    status: published
+    title: Subscribe to Palazzo Italia-Cina
+    description: New menus and news, now and then. Unsubscribe any time.
+    sections:
+      - id: newsletter
+        heading: What you will get
+        paragraphs:
+          - New menus, local activities and stories, now and then.
+  subscribe/confirm:
+    status: published
+    title: Confirm subscription
+    description: Your subscription becomes active only after email verification and
+      your explicit confirmation.
+    sections:
+      - id: verification
+        heading: Verification and confirmation
+        paragraphs:
+          - Your subscription becomes active only after email verification and
+            your explicit confirmation.
+  subscribe/unsubscribe:
+    status: published
+    title: Unsubscribe
+    description: Sign in with the relevant email and confirm unsubscribe. This page
+      shows the current status.
+    sections:
+      - id: verification
+        heading: Verification and confirmation
+        paragraphs:
+          - Sign in with the relevant email and confirm unsubscribe. This page
+            shows the current status.
+  legal:
+    status: published
+    title: "Terms and policies"
+    description: "By using the site you accept the terms of use below and acknowledge how we handle your data."
+    sections:
+      - id: effective
+        heading: "Effective date"
+        paragraphs:
+          - "The terms and policies listed on this page apply from 6 November 2026. When we change them we update the date; changes that matter for your rights are announced in advance by email to registered users."
+  legal/terms:
+    status: published
+    title: "Terms of use"
+    description: "The rules for using the Palazzo Italia-Cina website and its coupons."
+    sections:
+      - id: seller
+        heading: "The site and the service"
+        paragraphs:
+          - "The Palazzo Italia-Cina website (“the site”, “we”) is run by Palazzo Italia-Cina, reachable at info@palazzoitaliacina.com. The site introduces restaurants in Italy and issues free coupons from partner restaurants. We do not run restaurants or sell meals."
+      - id: eligibility
+        heading: "Who can use the site"
+        paragraphs:
+          - "You must be at least 14 and use an email address you receive mail at. Coupons are for personal use:"
+        bullets:
+          - "do not resell them or use them commercially;"
+          - "do not claim them with scripts or other automated means, or with several email addresses for the same campaign."
+      - id: conditions
+        heading: "Coupons and conditions"
+        paragraphs:
+          - "Coupons are free; the site never charges you. You pay for your meal at the restaurant, which is the seller: prices, dishes and allergen information come from the restaurant."
+        bullets:
+          - "One account (email address) holds one valid coupon per menu at a time and can claim a menu at most twice."
+          - "A coupon is only for the partner menu named on it, can be redeemed once and is valid until the date shown (Italian time)."
+          - "Show staff the QR code or 6-digit code before ordering; staff redeem it."
+          - "A redemption is final: staff cannot undo it; if one was a mistake, we correct it on request."
+          - "Coupons cannot be exchanged for cash and cannot be used after they expire."
+          - "A restaurant may pause or end a campaign. If a coupon is used against these terms we may cancel it; meals already redeemed are not affected."
+      - id: account
+        heading: "Account and codes"
+        paragraphs:
+          - "There are no passwords: you sign in with a code sent by email, valid for ten minutes. Do not forward it, and keep your mailbox secure. We may suspend an account used against these terms."
+      - id: responsibility
+        heading: "Information and liability"
+        paragraphs:
+          - "We check venue information before publishing it, but hours, menus and prices can change; the restaurant’s information on the day prevails. The restaurant provides the food service and is responsible for it."
+          - "We are liable for our own service as provided by law. Nothing in these terms limits your statutory rights as a consumer."
+      - id: content
+        heading: "Content and rights"
+        paragraphs:
+          - "Texts, photos and design on the site belong to us or their owners and may not be copied or used commercially without permission."
+      - id: law
+        heading: "Governing law and disputes"
+        paragraphs:
+          - "These terms are governed by Italian law. If you are a consumer, you may bring proceedings in the courts of the place where you live or are domiciled."
+          - "For questions or complaints, please write to info@palazzoitaliacina.com first; we reply as soon as we can and aim for a friendly solution."
+  legal/refunds:
+    status: published
+    title: "Refunds and extensions"
+    description: "Free coupons involve no payment or refund, and cannot be extended after they expire."
+    sections:
+      - id: withdrawal
+        heading: "Refunds"
+        paragraphs:
+          - "Current coupons are free and the site charges nothing, so there is no online payment and nothing to refund."
+          - "If we offer paid products in future, withdrawal and refund rules will be shown before purchase."
+      - id: extension
+        heading: "Validity and extensions"
+        paragraphs:
+          - "The validity date is printed on the coupon. After it the coupon no longer works and cannot be extended or reissued."
+      - id: exceptions
+        heading: "If something goes wrong"
+        paragraphs:
+          - "If the coupon does not display, the restaurant cannot honour it or it was redeemed by mistake, write to info@palazzoitaliacina.com with the email you used and the short code; we will check with the restaurant."
+  legal/privacy:
+    status: published
+    title: "Privacy policy"
+    description: "What personal data we process, why, for how long, and your rights (GDPR Articles 13 and 14)."
+    sections:
+      - id: controller
+        heading: "Data controller"
+        paragraphs:
+          - "Palazzo Italia-Cina"
+        bullets:
+          - "Email: info@palazzoitaliacina.com"
+      - id: processing
+        heading: "Data, purposes and legal basis"
+        paragraphs:
+          - "We only process the data the service needs:"
+        bullets:
+          - "Email address and sign-ins: to create your account, sign you in and send codes and coupons. Basis: performance of our agreement (GDPR Art. 6(1)(b))."
+          - "Coupon records: code, time of claim, redemption and undo, and the restaurant. To give the discount, prevent repeat use and settle with restaurants. Basis: our agreement and our legitimate interest in preventing abuse (Art. 6(1)(b) and (f))."
+          - "Newsletter: email, language and time of consent. We only write if you subscribe. Basis: consent (Art. 6(1)(a)), which you can withdraw at any time."
+          - "Technical logs: IP address, browser and time. For security and troubleshooting. Basis: legitimate interest (Art. 6(1)(f))."
+          - "Anonymous usage statistics: only after you consent, we record anonymous usage events (for example which kind of page you view, taps on navigation or the coupon button, “Add to home screen”). No email and no coupon token. Basis: consent (Art. 6(1)(a)), which you can withdraw at any time from “Cookie preferences”."
+          - "Poster channel: if you arrive by scanning the QR code on a printed poster, we note the poster’s channel code (for example p1) on the coupon you claim, to learn which poster works. Only the channel code, nothing about how you browse; the scan itself records only the entry, channel, language and time, with no IP address or device data. Basis: legitimate interests (Art. 6(1)(f))."
+          - "Cookie choice count: your choice on the cookie banner (accept or reject) is added to an anonymous daily number with no identifier, to know how many people accept. Basis: legitimate interests (Art. 6(1)(f))."
+          - "Messages to customer service: to answer you. Basis: our agreement or your request."
+          - "Partner restaurant staff: account email and redemptions, for the restaurant area and statements. Basis: our agreement with the restaurant."
+      - id: recipients
+        heading: "Recipients"
+        paragraphs:
+          - "When redeeming, the partner restaurant sees the coupon details it needs. We do not sell personal data, use it for advertising or make automated decisions or profiles."
+          - "To run the site we use these processors: Supabase (database and sign-in, servers in the EU in Frankfurt), Resend (email delivery) and Vercel (hosting) and, if you consent to analytics, PostHog (anonymous usage statistics, servers in the EU). Resend and Vercel are based in the United States; transfers rely on the EU adequacy decision for the United States (EU-U.S. Data Privacy Framework) or standard contractual clauses."
+      - id: retention
+        heading: "Retention"
+        paragraphs:
+          - "We keep data only as long as needed:"
+        bullets:
+          - "Account and coupon records: until you ask us to delete your account, and no longer than 24 months after last use."
+          - "Newsletter: until you unsubscribe; we keep the unsubscribe record so we do not write again."
+          - "Technical logs: deleted automatically by the hosting provider, normally within 30 days."
+          - "Anonymous usage statistics: no longer than 12 months."
+          - "Customer service messages: no longer than 24 months after the request is closed."
+          - "Where the law requires longer retention, we follow the law."
+      - id: rights
+        heading: "Your rights"
+        paragraphs:
+          - "We have not appointed a data protection officer. For privacy questions write to info@palazzoitaliacina.com."
+          - "You can ask for access, correction, deletion, restriction and portability of your data, object to processing based on legitimate interest and withdraw consent at any time (for example by unsubscribing), without affecting earlier processing."
+          - "To delete your account or exercise a right, write to info@palazzoitaliacina.com from your account email; we reply within one month. You can also complain to the Italian data protection authority, the Garante per la protezione dei dati personali (www.garanteprivacy.it)."
+  legal/cookies:
+    status: published
+    title: "Cookie policy"
+    description: "Cookies and browser storage the site needs to work do not require consent; analytics only run if you choose “Accept all”. No advertising or third-party tracking cookies."
+    sections:
+      - id: necessary
+        heading: "Necessary cookies and browser storage"
+        paragraphs:
+          - "These are needed for the site to work and do not require consent:"
+        bullets:
+          - "Sign-in cookies (names starting with sb-): keep you signed in; removed when you sign out or they expire."
+          - "Language (browser local storage): remembers the language you picked."
+          - "Temporary sign-in state (only in the open tab, cleared when it closes)."
+      - id: analytics
+        heading: "Analytics and advertising"
+        paragraphs:
+          - "The analytics tool only runs if you choose “Accept all”; with “Reject all”, or if you do not choose, no analytics data is sent. We use PostHog (servers in the EU) without cookies: the visitor ID is a random number kept only in this device’s browser storage, not linked to an email or account; it is deleted if you reject or withdraw consent."
+          - "We only record anonymous usage events, for example the kind of page viewed, taps on navigation or language switch, directions and copying the address, starting a coupon claim, and “Add to home screen”; coupon tokens are removed from the address before anything is sent. No personal profile, and no link to your email or account. Purchases, redemptions and refunds are counted from the database and payment records, not from analytics."
+          - "The site uses no advertising or third-party tracking cookies and embeds no third-party maps, videos or social buttons; map links on restaurant pages open Apple Maps or Google Maps in a new page."
+      - id: settings
+        heading: "Managing cookies"
+        paragraphs:
+          - "You can change your choice at any time from “Cookie preferences” in the footer: rejecting is as easy as accepting, and we ask again about every six months. You can also delete cookies and local storage in your browser settings at any time; you will then need to sign in again."
+labels:
+  preview: Content is being prepared; some details still await confirmation.
+  closed: Launching soon
+  contactHeading: Contact us
+  legalOnThisPage: On this page
+  legalEffective: "In effect from 6 November 2026"
+  contactPartners: Write to us about your restaurant or shop, with its address and your contact details, and we will reply as soon as we can.
+  contactSupport: Email us and we will reply as soon as we can. For a coupon, include the 6-digit code shown on it.
+  subscribeClosed: Enter your email to subscribe for occasional
+    new menus, local activities and stories. Unsubscribe whenever you like.
+  legalPending: "[Text awaiting legal approval; this page contains the policy
+    structure only.]"
+  invalidConfirmation: Your subscription becomes active only after email
+    verification and your explicit confirmation.
+  invalidUnsubscribe: Sign in with the relevant email and confirm unsubscribe.
+    This page shows the current status.
+  name: Name
+  business: Restaurant or company
+  phone: Phone or WhatsApp
+  email: Email
+  message: Message
+  topic: Topic
+  shortCode: Voucher short code (optional)
+  send: Send
+  subscribe: Subscribe
+  consent: "I agree that the details I send are processed under the privacy policy, only to answer this request."
+  supportEmail: "info@palazzoitaliacina.com"
+  partnerEmail: "palazzoitaliacina@gmail.com"
+  supportHours: "[Support hours · Italian local time]"
+  related: Read more
+  gift: Ordering guide
+  giftDescription: "[Common dishes, ingredients and dietary terms, in preparation]"
+  giftPreview: "[Ordering guide preview]"
+  teamPhoto: "[Team visit photo to be provided]"
+  restaurantPhoto: "[Restaurant photo to be provided]"
+  privacy: Privacy policy
+topics:
+  - Voucher or menu
+  - Payment
+  - Refund or extension
+  - Reservation
+  - Partnership
+  - Other

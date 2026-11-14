@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+.DS_Store
+*.tsbuildinfo
+.superpowers/
+output/playwright/
+.impeccable/
+.playwright-cli/
+
+# Operator-generated SQL contains the supplied owner email.
+.local/

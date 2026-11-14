@@ -1,0 +1,8 @@
+# Explicitly requested preview counts, never a claim about published places.
+mode: preview
+counts:
+  eat: 3
+  do: 3
+  shop: 3
+  stay: 3
+  guides: 3

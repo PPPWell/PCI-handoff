@@ -1,0 +1,6 @@
+"use client";
+import Link from 'next/link';import {createContext,useContext,useState,useSyncExternalStore,type ReactNode} from 'react';import {createOwnerSession} from '@/lib/merchant/owner-session';
+const Context=createContext<ReturnType<typeof createOwnerSession>|null>(null);
+export function MerchantOwnerSessionProvider({children}:{children?:ReactNode}){const [session]=useState(createOwnerSession);return <Context.Provider value={session}><OwnerPendingNotice />{children}</Context.Provider>;}
+export function useOwnerSession(){const session=useContext(Context);if(!session)throw Error('Owner session missing');return [useSyncExternalStore(session.subscribe,session.getSnapshot,session.getSnapshot),session.dispatch] as const;}
+function OwnerPendingNotice(){const [flow]=useOwnerSession();return flow.request?<aside className="container state-card" role="status" lang="it"><p>{flow.restaurantName&&<>{flow.restaurantName} · </>}{flow.unknown?'Esito del titolare non confermato. Conserviamo la stessa richiesta.':flow.pending?'Operazione del titolare in verifica.':'Operazione del titolare da confermare.'}</p><Link className="text-link" href={'/it/merchant/'+(flow.request.action==='pin'?'pin':'devices')+'/?restaurant='+flow.request.restaurantId}>Torna alla stessa operazione</Link></aside>:null;}

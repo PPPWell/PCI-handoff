@@ -1,0 +1,64 @@
+locale: en
+seo:
+  title: "Palazzo Italia-Cina | Florence restaurants and exclusive menus"
+  description: "Restaurants, places to explore, shops and stays in Italy, written up in Chinese, Italian and English. We start in Florence, with places we eat at ourselves and exclusive menus with free coupons."
+hero:
+  eyebrow: Starting in Florence
+  title: A Cloud Palazzo of your own in Italy
+  imageAlt: "Manarola in the Cinque Terre: colourful houses on the cliff above a turquoise bay with boats"
+  description: "To promote two-way trade, Palazzo Italia-Cina picks restaurants, places to explore, shops and stays in China and Italy, with travel tips in Chinese and exclusive coupons. We start in Florence: restaurants launch officially on 11 November 2026; places to explore, shops and stays will follow."
+doors:
+  heading: "Where would you like to start?"
+  notes:
+    eat: "Restaurants and exclusive menus"
+    do: "Places worth a visit"
+    shop: "Things to take home"
+    stay: "Where to sleep well"
+    guides: "Read before you go"
+offer:
+  heading: This edition’s exclusive menu
+  restaurant: PaStation Firenze
+  name: PaStation Deluxe Menus · €8 coupon
+  price: €8 off
+  comparison: €8 off with the coupon
+  description: "Deluxe menus for lunch or dinner: €27, pay €19 at the restaurant with the €8 coupon."
+  includes: One coupon each for Deluxe Menu 1 and Deluxe Menu 2 · €27, or €19 with the coupon
+  status: Free coupon
+  notify: Get the free coupon
+  imageLabel: PaStation entrance
+city:
+  heading: Choose your city
+  name: Florence
+  originalName: Firenze
+  counts: "[N] places · [N] exclusive menus"
+  action: Explore Florence
+  upcomingTitle: Launching soon
+  upcoming: More countries and cities
+  notify: About email updates
+tips:
+  heading: "Travel tips for Italy"
+  items:
+    - Do you need to tip in Italy?
+    - How to order your steak in Italian
+    - Restaurant opening hours and reservations
+team:
+  heading: Across mountains and seas, find what you love
+  description: "Palazzo Italia-Cina is a bridge in the clouds, and a promise between China and Italy. The Chinese name, “Zhongyi” (中意), carries two meanings: the meeting of China (中) and Italy (意), and a heartfelt phrase, “I really like it” (我很中意)."
+  action: About Palazzo Italia-Cina
+  places:
+    - title: Italy
+      detail: Picks and company
+      imageLabel: "[Photo: the team visiting Florence]"
+    - title: Beijing
+      detail: Research and editorial work
+      imageLabel: "[Photo: at the table]"
+subscribe:
+  title: "Be the first to hear about new menus and guides"
+  description: "New menus, guides and news, now and then. Unsubscribe any time."
+  label: Email
+  button: Subscribe
+  closed: Your subscription becomes active only after email verification and your
+    explicit confirmation.
+footer:
+  description: "Eat, explore, shop and stay well in Italy: places picked with care, guides, and offers you can only find here."
+  company: © 2026 Palazzo Italia-Cina · P.IVA 07586720489

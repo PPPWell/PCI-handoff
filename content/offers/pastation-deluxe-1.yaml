@@ -1,0 +1,141 @@
+id: pastation-deluxe-1
+placeId: restaurant-1
+status: on-sale
+version: 2
+priceCents: null
+aLaCarteCents: null
+currency: EUR
+people: null
+validityDays: 7
+salesMode: pay-at-restaurant
+menuSection: Secondo piatto
+mealWindows:
+  - meal: lunch
+    from: "12:00"
+    to: "13:00"
+  - meal: dinner
+    from: "15:00"
+    to: "22:30"
+photos:
+  - url: /images/places/pastation/menu1-01.jpg
+    alt:
+      zh: 豪华套餐 1：生火腿、卡普雷塞沙拉、清炒菠菜、番茄烤面包、肉酱粗管意面和提拉米苏，旁边一杯红酒
+      it: "Menù Deluxe 1: prosciutto crudo, caprese, spinaci saltati, bruschette, rigatoni al ragù e tiramisù, con un calice di vino rosso"
+      en: "Deluxe Menu 1: prosciutto, caprese, sautéed spinach, bruschetta, rigatoni with ragù and tiramisu, with a glass of red wine"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-02.jpg
+    alt:
+      zh: 卡普雷塞沙拉：番茄和马苏里拉奶酪，配罗勒叶
+      it: "Caprese con pomodoro, mozzarella e basilico"
+      en: "Caprese with tomato, mozzarella and basil"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-03.jpg
+    alt:
+      zh: 布拉塔奶酪配生火腿
+      it: "Prosciutto crudo con burrata"
+      en: "Prosciutto with burrata"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-04.jpg
+    alt:
+      zh: 番茄、马苏里拉奶酪及蘑菇烤面包
+      it: "Bruschette con pomodoro, mozzarella e funghi"
+      en: "Bruschetta with tomato, mozzarella and mushrooms"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-05.jpg
+    alt:
+      zh: 肉酱粗管意面
+      it: "Rigatoni al ragù"
+      en: "Rigatoni with ragù"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-06.jpg
+    alt:
+      zh: 一杯提拉米苏
+      it: "Tiramisù in tazza"
+      en: "Tiramisu in a cup"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-07.jpg
+    alt:
+      zh: 清炒菠菜
+      it: "Spinaci saltati"
+      en: "Sautéed spinach"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-08.jpg
+    alt:
+      zh: 一杯红酒（红酒和水二选一）
+      it: "Un calice di vino rosso (vino rosso oppure acqua)"
+      en: "A glass of red wine (red wine or water)"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+  - url: /images/places/pastation/menu1-09.jpg
+    alt:
+      zh: 黄色小罐装的帕马森奶酪，放在蓝白格桌垫上
+      it: "Il vasetto giallo con il parmigiano sul tovagliolo a quadretti blu"
+      en: "The yellow pot of Parmesan on the blue gingham place mat"
+    creator: 项目方提供
+    takenAt: unknown
+    source: provided
+    permission: 用户于2026-11-09提供，用于本网站；原摄影者未署名。
+    attribution: PaStation Firenze
+translations:
+  zh:
+    name: PaStation 豪华套餐 1 · €8 优惠券
+    summary: 豪华套餐 1，标价 €27，凭 €8 优惠券到店支付 €19。
+    conditions: 仅限豪华套餐 1，堂食、外带均可，需在午餐 12:00–13:00 或晚餐 15:00–22:30（意大利当地时间）使用。每张券核销一次。红酒和水二选一。有效期见券面。
+    allergens: 过敏原与忌口，请点单前问店员。
+    courses:
+      - name: 豪华套餐 1
+        description: 番茄、马苏里拉奶酪及蘑菇烤面包；卡普雷塞沙拉（番茄、马苏里拉奶酪）；清炒菠菜；生火腿；肉酱粗管意面；提拉米苏；红酒或水二选一。
+  it:
+    name: PaStation Menù Deluxe 1 · coupon da 8 €
+    summary: "Menù Deluxe 1: prezzo 27 €, paghi 19 € al ristorante con il coupon da 8 €."
+    conditions: "Solo per il Menù Deluxe 1, da consumare al tavolo o da asporto, a pranzo dalle 12:00 alle 13:00 o a cena dalle 15:00 alle 22:30 (ora italiana). Una convalida per coupon. Vino rosso oppure acqua. La scadenza è sul coupon."
+    allergens: Chiedi allo staff gli allergeni prima di ordinare.
+    courses:
+      - name: Menù Deluxe 1
+        description: "Bruschette con pomodoro, mozzarella e funghi; caprese (pomodoro e mozzarella); spinaci saltati; prosciutto crudo; rigatoni al ragù; tiramisù; vino rosso oppure acqua."
+  en:
+    name: PaStation Deluxe Menu 1 · €8 coupon
+    summary: "Deluxe Menu 1: €27, pay €19 at the restaurant with the €8 coupon."
+    conditions: "For Deluxe Menu 1 only, valid for eating in or takeaway, at lunch (12:00–13:00) or dinner (15:00–22:30), Italian local time. One redemption per coupon. Choose red wine or water. Expiry is shown on the coupon."
+    allergens: Ask staff about allergens before ordering.
+    courses:
+      - name: Deluxe Menu 1
+        description: "Bruschetta with tomato, mozzarella and mushrooms; caprese (tomato and mozzarella); sautéed spinach; prosciutto; rigatoni with ragù; tiramisu; red wine or water."
+benefit:
+  type: fixed-amount
+  discountCents: 800
+  scope: partner-menu
+  campaignId: pastation-deluxe-1-8
+  reference:
+    menuPriceCents: 2700

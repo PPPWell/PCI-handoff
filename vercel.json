@@ -1,0 +1,15 @@
+{
+  "regions": [
+    "fra1"
+  ],
+  "crons": [
+    {
+      "path": "/api/internal/voucher-maintenance",
+      "schedule": "15 2 * * *"
+    },
+    {
+      "path": "/api/internal/coupon-reminders",
+      "schedule": "30 7 * * *"
+    }
+  ]
+}

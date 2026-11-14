@@ -1,0 +1,46 @@
+{
+  "name": "palazzo-cina-italia",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.22.0",
+  "browserslist": [
+    "chrome >= 79",
+    "edge >= 79",
+    "firefox >= 78",
+    "safari >= 13",
+    "ios_saf >= 13",
+    "samsung >= 12"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "pnpm tokens && pnpm offline:build && next dev --hostname 127.0.0.1",
+    "build": "pnpm tokens && pnpm offline:build && pnpm content:check && next build",
+    "start": "next start --hostname 127.0.0.1",
+    "lint": "eslint . && tsc --noEmit",
+    "tokens": "node scripts/generate-tokens.mjs",
+    "content:check": "node --import tsx scripts/validate-content.ts",
+    "offline:build": "node scripts/generate-offline.mjs"
+  },
+  "dependencies": {
+    "@supabase/ssr": "0.12.7",
+    "@supabase/supabase-js": "2.118.0",
+    "jsqr": "1.4.0",
+    "next": "16.4.2",
+    "qrcode": "1.5.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.4.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

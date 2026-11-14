@@ -1,0 +1,8 @@
+import {offlineIdentity} from './offline-core.js';
+import {createOfflineWorker} from './offline-worker.js';
+const assetCache='pci-voucher-assets-v1',assets=['/v/offline.css','/v/offline-client.js','/v/offline-core.js','/v/offline-browser.js'];
+const worker=createOfflineWorker({origin:self.location.origin,caches,fetch:(...args)=>fetch(...args),now:()=>Date.now(),getClient:id=>self.clients.get(id),notify:async(token,exceptClient)=>{for(const client of await self.clients.matchAll({type:'window',includeUncontrolled:true}))if(client.id!==exceptClient&&offlineIdentity(client.url,self.location.origin)?.token===token)client.postMessage({type:'pci-voucher-cache-changed'});}});
+self.addEventListener('install',event=>event.waitUntil((async()=>{const cache=await caches.open(assetCache);await cache.addAll(assets);await self.skipWaiting();})()));
+self.addEventListener('activate',event=>event.waitUntil((async()=>{for(const name of await caches.keys())if(/^pci-voucher-(?:assets|snapshots)-v\d+$/.test(name)&&!['pci-voucher-snapshots-v1',assetCache].includes(name))await caches.delete(name);await worker.cleanup();await self.clients.claim();})()));
+self.addEventListener('message',event=>{if(!event.source?.id||!event.ports[0])return;event.waitUntil(worker.message(event.source.id,event.data).then(result=>event.ports[0].postMessage(result)));});
+self.addEventListener('fetch',event=>{const url=new URL(event.request.url);if(event.request.method==='GET'&&url.origin===self.location.origin&&assets.includes(url.pathname)&&!url.search){event.respondWith((async()=>{const saved=await(await caches.open(assetCache)).match(url.pathname);return saved??fetch(event.request);})());return;}if(worker.handles(event.request))event.respondWith(worker.navigate(event.request));});

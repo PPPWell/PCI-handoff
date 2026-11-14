@@ -1,0 +1,2 @@
+import {MerchantScreen} from '@/components/merchant/MerchantScreen';import {StaffTopbar} from '@/components/merchant/StaffShell';import {serverMerchantVoucher} from '@/lib/merchant/server';
+export default async function ScanVoucher({params}:{params:Promise<{token:string}>}){const {token}=await params,state=await serverMerchantVoucher(token);return <><StaffTopbar restaurant={state.kind==='found'?state.data.view.restaurant.name:null} /><MerchantScreen token={token} state={state} /></>;}

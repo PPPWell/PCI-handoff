@@ -1,0 +1,10 @@
+{
+  "approved": false,
+  "version": "pending",
+  "company": "[公司名称]",
+  "copy": {
+    "zh": {"footer": "[公司与客服说明待确认]", "withdrawalRequested": "[撤回申请回执措辞待律师确认]", "withdrawalCompleted": "[撤回完成回执措辞待律师确认]"},
+    "it": {"footer": "[Dati societari e assistenza da confermare]", "withdrawalRequested": "[Ricevuta della richiesta di recesso da confermare con il legale]", "withdrawalCompleted": "[Ricevuta del recesso completato da confermare con il legale]"},
+    "en": {"footer": "[Company and support details awaiting confirmation]", "withdrawalRequested": "[Withdrawal request receipt wording awaiting legal approval]", "withdrawalCompleted": "[Completed withdrawal receipt wording awaiting legal approval]"}
+  }
+}

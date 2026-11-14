@@ -1,0 +1,64 @@
+locale: it
+seo:
+  title: "Palazzo Italia-Cina | Ristoranti e indirizzi scelti a Firenze"
+  description: "Ristoranti, luoghi da esplorare, botteghe e posti dove dormire in Italia, raccontati in cinese, italiano e inglese. Si comincia da Firenze, con locali che visitiamo di persona."
+hero:
+  eyebrow: Si comincia da Firenze
+  title: In Italia, un Palazzo Cloud che ti aspetta
+  imageAlt: "Manarola, nelle Cinque Terre: case colorate sugli scogli, bagnanti e barche nella baia"
+  description: "Palazzo Italia-Cina promuove gli scambi bilaterali con una selezione di ristoranti, luoghi da esplorare, botteghe e posti dove dormire in Cina e in Italia, con consigli di viaggio in cinese e coupon esclusivi. Si parte da Firenze: i ristoranti aprono ufficialmente l’11 novembre 2026; esplorare, botteghe e dormire seguiranno."
+doors:
+  heading: "Da dove vuoi cominciare?"
+  notes:
+    eat: "Ristoranti e menù dedicati"
+    do: "Luoghi da scoprire"
+    shop: "Da portare a casa"
+    stay: "Dove dormire bene"
+    guides: "Da leggere prima di partire"
+offer:
+  heading: Il menù esclusivo del momento
+  restaurant: PaStation Firenze
+  name: PaStation Menù Deluxe · coupon da 8 €
+  price: Sconto 8 €
+  comparison: 8 € di sconto con il coupon
+  description: "Menù Deluxe a pranzo o a cena: prezzo 27 €, paghi 19 € al ristorante con il
+    coupon da 8 €."
+  includes: Un coupon per il Menù Deluxe 1 e uno per il Menù Deluxe 2 · prezzo 27 €, con il coupon 19 €
+  status: Coupon gratuito
+  notify: Richiedi il coupon gratuito
+  imageLabel: PaStation, ingresso
+city:
+  heading: Scegli la città
+  name: Firenze
+  originalName: Firenze
+  counts: "[N] locali · [N] menù esclusivi"
+  action: Scopri Firenze
+  upcomingTitle: Presto online
+  upcoming: Altri paesi e città
+  notify: Come ricevere gli aggiornamenti
+tips:
+  heading: "Consigli di viaggio"
+  items:
+    - Trattorie vere, come riconoscerle
+    - Cosa assaggiare in ogni regione
+    - Dove mangiare bene senza prenotare
+team:
+  heading: Oltre monti e mari, incontra ciò che ami
+  description: "Palazzo Italia-Cina è un ponte sospeso tra le nuvole e una bella promessa tra Cina e Italia. Il nome cinese “Zhongyi” (中意) racchiude due significati: l’incontro tra Cina (中) e Italia (意), e un’espressione sincera, “mi piace molto” (我很中意)."
+  action: Scopri Palazzo Italia-Cina
+  places:
+    - title: Italia
+      detail: Scelte e compagnia
+      imageLabel: "[Foto: il team in visita a Firenze]"
+    - title: Pechino
+      detail: Temi e contenuti
+      imageLabel: "[Foto: a tavola]"
+subscribe:
+  title: "Un’email per nuovi menù e nuovi consigli"
+  description: "Nuovi menù, consigli e novità, ogni tanto. Annulli quando vuoi."
+  label: Email
+  button: Iscriviti
+  closed: L’iscrizione si attiva solo dopo la verifica dell’email e la tua conferma.
+footer:
+  description: "Mangiare, esplorare, comprare e dormire bene in Italia: indirizzi scelti, consigli e vantaggi che trovi solo qui."
+  company: © 2026 Palazzo Italia-Cina · P.IVA 07586720489

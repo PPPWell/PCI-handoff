@@ -1,0 +1,63 @@
+locale: zh
+seo:
+  title: "中意公馆｜佛罗伦萨中文美食指南与餐厅专属优惠"
+  description: "中意公馆用中文介绍意大利的餐厅、景点、购物和住宿，从佛罗伦萨开始：每家店都是我们自己去吃过的，写清楚吃什么、适合谁、怎么订位，还有合作餐厅的免费专属优惠券。"
+hero:
+  eyebrow: 从佛罗伦萨开始
+  title: 在意大利，有一处属于你的云公馆
+  imageAlt: "五渔村的马纳罗拉：彩色房子立在海边的岩石上，海湾里有人游泳和小船"
+  description: "中意公馆为促进双边贸易，精选中国和意大利的餐厅、景点、购物和住宿，附上中文出行提示和专属优惠。首站佛罗伦萨，餐厅于11.11.2026正式上线，景点、购物和住宿将陆续上线。"
+doors:
+  heading: "你想先看什么"
+  notes:
+    eat: "餐厅与专属套餐"
+    do: "值得一去的地方"
+    shop: "带得走的好东西"
+    stay: "住得安心"
+    guides: "出发前读一读"
+offer:
+  heading: 本期专属套餐
+  restaurant: PaStation Firenze
+  name: PaStation 豪华套餐 · €8 优惠券
+  price: 立减 €8
+  comparison: 凭券立减 €8
+  description: 豪华套餐，午餐或晚餐均可，标价 €27，凭 €8 优惠券到店支付 €19。
+  includes: 豪华套餐 1、豪华套餐 2 各有一张专属优惠券 · 标价 €27，凭券 €19
+  status: 免费领取
+  notify: 免费领取优惠券
+  imageLabel: PaStation 门面实拍
+city:
+  heading: 选择城市
+  name: 佛罗伦萨
+  originalName: Firenze
+  counts: "[N] 家店 · [N] 份专属套餐"
+  action: 进入佛罗伦萨
+  upcomingTitle: 即将上线
+  upcoming: 更多国家和城市
+  notify: 了解订阅通知
+tips:
+  heading: "意大利出行提示"
+  items:
+    - 意大利的餐厅要给小费吗
+    - 牛排几分熟，用意大利语怎么说
+    - 餐厅午休到几点，怎么订位
+team:
+  heading: 跨越山海，遇见心中所爱
+  description: "中意公馆，是一座架在云端的桥梁，也是一份连接中国与意大利的美好约定。“中意”二字，既寓意中国与意大利的相遇，也藏着一句发自内心的“我很中意”。"
+  action: 了解中意公馆
+  places:
+    - title: 意大利
+      detail: 精选与陪伴
+      imageLabel: "[照片：团队在佛罗伦萨探店]"
+    - title: 北京
+      detail: 选题与内容
+      imageLabel: "[照片：餐桌实拍]"
+subscribe:
+  title: "有新套餐、新提示，就写信告诉你"
+  description: "新套餐、新提示和活动，不定期写信，可随时退订。"
+  label: 邮箱
+  button: 订阅
+  closed: 验证邮箱并确认后，才会加入邮件订阅。
+footer:
+  description: "在意大利吃好、逛好、住好：精选的店、中文出行提示，和这里独有的优惠。"
+  company: © 2026 Palazzo Italia-Cina · P.IVA 07586720489

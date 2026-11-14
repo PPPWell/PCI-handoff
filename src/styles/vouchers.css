@@ -1,0 +1,35 @@
+.experience-page { max-width: var(--content-max); }
+.experience-page > .page-introduction, .experience-page > .content-section, .experience-page > .state-panel, .experience-page > p, .experience-page > .voucher-ticket { max-width: var(--bp-md); }
+.voucher-experience { display: flex; flex-direction: column; gap: var(--space-8); max-width: var(--bp-md); }
+.voucher-state-choice select { width: 100%; min-height: var(--control-h); padding: var(--space-3); border: 1px solid var(--control); border-radius: var(--radius-md); background: var(--surface); color: var(--ink); font: inherit; }
+.voucher-ticket { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-4); padding: var(--space-6); border: 1px solid var(--control); border-top: var(--space-1) solid var(--brass); border-radius: var(--radius-lg); background: var(--surface); min-width: 0; }
+.voucher-ticket .qr-illustration { align-self: center; }
+.voucher-ticket--large { align-items: center; text-align: center; }
+.voucher-ticket--large .qr-illustration { max-width: calc(var(--space-32) * 3); }
+.voucher-course { display: flex; flex-direction: column; gap: var(--space-2); padding-block: var(--space-4); border-bottom: 1px solid var(--line); }
+.reservation-form, .reservation-result { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-4); width: 100%; }
+.reservation-inputs { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-4); width: 100%; }
+.reservation-result .field { width: 100%; }
+.reservation-result textarea { width: 100%; min-width: 0; min-height: var(--space-32); resize: vertical; padding: var(--space-4); border: 1px solid var(--control); border-radius: var(--radius-md); background: var(--surface); color: var(--ink); font: inherit; }
+.account-fields { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-4); margin: 0; padding: 0; border: 0; min-width: 0; }
+.account-fields .field { width: 100%; }
+.refund-step { border-top: 1px solid var(--line); padding-top: var(--space-6); }
+.hotel-card { padding: var(--space-6); border: 1px solid var(--control); border-radius: var(--radius-lg); background: var(--surface); }
+.reply-item { display: flex; flex-direction: column; gap: var(--space-2); padding-block: var(--space-5); border-bottom: 1px solid var(--line); }
+.live-voucher-page { max-width: var(--bp-md); }
+.live-voucher-list { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-5); }
+.live-qr { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); width: 100%; }
+.live-qr img { display: block; width: 100%; max-width: calc(var(--space-32) * 3); height: auto; }
+.voucher-short-code { font-size: var(--h3-font-size); font-family: var(--font-sans); font-variant-numeric: tabular-nums; letter-spacing: var(--label-letter-spacing); }
+.voucher-qr-dialog { border: 1px solid var(--control); border-radius: var(--radius-lg); padding: var(--space-5); max-width: calc(100% - var(--space-8)); max-height: calc(100% - var(--space-8)); background: var(--surface); color: var(--ink); }
+.voucher-qr-dialog::backdrop { background: var(--toast); opacity: .8; }
+.voucher-qr-dialog > div { display: flex; flex-direction: column; align-items: center; gap: var(--space-4); }
+.voucher-qr-dialog img { width: 100%; max-width: calc(var(--space-32) * 3); height: auto; }
+.voucher-footer { display: flex; flex-wrap: wrap; gap: var(--space-5); padding-block: var(--space-8); border-top: 1px solid var(--line); }
+@media (min-width: 480px) { .reservation-inputs { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 960px) { .voucher-experience { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); max-width: none; gap: var(--space-8) var(--space-12); align-items: start; } .voucher-experience > .voucher-state-choice, .voucher-experience > .policy-navigation { grid-column: 1 / -1; } }
+
+.account-groups { display: flex; flex-wrap: wrap; gap: var(--space-3); border: 0; padding: 0; }
+.account-page .account-fields { max-width: var(--bp-sm); }
+
+.offline-safety-block .voucher-ticket, .offline-safety-block .voucher-short-code { display: none; }

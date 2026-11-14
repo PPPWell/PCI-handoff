@@ -1,0 +1,2 @@
+import type {ReactNode} from 'react';import {MerchantSessionProvider} from '@/components/merchant/MerchantSessionProvider';import {LiveVoucherRefresh} from '@/components/vouchers/LiveVoucherRefresh';
+export default async function ScanVoucherLayout({children,params}:{children:ReactNode;params:Promise<{token:string}>}){return <MerchantSessionProvider key={(await params).token}><LiveVoucherRefresh />{children}</MerchantSessionProvider>;}
