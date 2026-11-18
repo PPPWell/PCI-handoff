@@ -13,12 +13,21 @@ import { contentCopy } from "@/lib/catalog/copy";
 import { categoryIds, categoryNames, isLaunched } from "@/lib/routes";
 import Image from "next/image";
 import { DoorArt } from "./Illustrations";
+import { ExtraDoorArt } from "./ExtraDoorArt";
 import { cityPlaces, featuredGuides } from "@/lib/catalog/select";
 
 const extra = {
   zh: { allGuides: "全部提示" },
   it: { allGuides: "Tutti i consigli" },
   en: { allGuides: "All guides" },
+} as const;
+
+/** Two new home-only entries; the existing catalog categories are intentionally unchanged. */
+const extraDoors = ["tech", "presale"] as const;
+const extraDoorLabels = {
+  zh: { tech: "科技产品", presale: "预售" },
+  it: { tech: "Tecnologia", presale: "Prevendita" },
+  en: { tech: "Technology", presale: "Pre-sale" },
 } as const;
 
 export function Home({ content, catalog, registry }: { content: HomeContent; catalog: Catalog; registry: RouteRegistry }) {
@@ -66,7 +75,20 @@ export function Home({ content, catalog, registry }: { content: HomeContent; cat
             <span className="door__note">{soon ? contentCopy[locale].comingSoon : doors.notes[id]}</span>
           </span>
         </Link></li> : null;
-      })}</ul>
+      })}
+      {extraDoors.map((id) => <li key={id}>
+        <Link className="door door--soon" href={`/${locale}/${id}/`}>
+          <ExtraDoorArt id={id} />
+          <span className="door__body">
+            <span className="door__name">
+              {extraDoorLabels[locale][id]}
+              {locale !== "it" && <span className="door__it" lang="it">{extraDoorLabels.it[id]}</span>}
+            </span>
+            <span className="door__note">{contentCopy[locale].comingSoon}</span>
+          </span>
+        </Link>
+      </li>)}
+      </ul>
     </section>
 
     <section className="home-band city-section" aria-labelledby="city-title">
