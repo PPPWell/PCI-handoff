@@ -13,14 +13,14 @@
 .hero-copy h1 { max-width: 16ch; }
 .hero-description { max-width: 40rem; color: var(--ink-2); }
 
-/* Five entrances: an illustrated card per section, the same five as the navigation */
+/* Seven home entrances: five existing catalog categories and two new standalone sections. */
 .door-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-3); margin: 0; padding: 0; list-style: none; }
 .door-list > li:last-child { grid-column: 1 / -1; }
 .door { display: grid; grid-template-rows: auto 1fr; height: 100%; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); color: var(--ink); text-decoration: none; }
 .door:hover { border-color: var(--control); background: var(--primary-soft); }
 .door__art { display: block; width: 100%; aspect-ratio: 8 / 5; }
 @media (max-width: 767px) {
-  /* The fifth card spans the row: picture on the left, words on the right */
+  /* The seventh card spans the row: picture on the left, words on the right */
   .door-list > li:last-child .door { grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); grid-template-rows: none; align-items: center; }
 }
 .door__body { display: grid; align-content: start; gap: var(--space-1); padding: var(--space-3) var(--space-4) var(--space-4); }
@@ -115,7 +115,7 @@
   .home, .home__body { gap: var(--space-16); }
   .home { padding-bottom: var(--space-16); }
   .hero-copy { padding-block-start: var(--space-8); }
-  .door-list { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--space-4); }
+  .door-list { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); }
   .door-list > li:last-child { grid-column: auto; }
   .offer-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .offer-strip > .offer-card + .offer-card { border-top: 0; border-inline-start: 1px solid var(--line); }
